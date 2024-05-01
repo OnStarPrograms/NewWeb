@@ -1,0 +1,26 @@
+.Head
+    |
+
+.end
+
+.Data
+    |
+    .image-right
+        |
+        .end
+        
+.end
+
+.Projects
+
+    |
+    .Project-info
+        |
+        .end
+
+    |
+    .Project-info
+        |
+        .end
+
+.end
