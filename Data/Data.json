@@ -1,26 +1,26 @@
-.Head
-    |
-
-.end
-
-.Data
-    |
-    .image-right
-        |
-        .end
-        
-.end
-
-.Projects
-
-    |
-    .Project-info
-        |
-        .end
-
-    |
-    .Project-info
-        |
-        .end
-
-.end
+[
+    {
+        "head" : "-",
+        "Data" : 
+        {
+            "Data-Text" : "-",
+           "image-Right" : "-"
+        },
+        "Projects" :
+        {
+            "Project-num" : 2,
+            "Project1" :
+            {
+                "Project-1-Name" : "-",
+                "Project-info" : "-",
+                "image-Right" : "-"
+            },
+            "Project2" :
+            {
+                "Project-2-Name" : "-",
+                "Project-info" : "-",
+                "image-Right" : "-"
+            }
+        }
+    }
+]
