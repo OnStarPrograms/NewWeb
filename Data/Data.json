@@ -3,23 +3,23 @@
         "head" : "-",
         "Data" : 
         {
-            "Data-Text" : "-",
-           "image-Right" : "-"
+            "Data_Text" : "-",
+           "image_Right" : "-"
         },
         "Projects" :
         {
-            "Project-num" : 2,
+            "Project_num" : 2,
             "Project1" :
             {
-                "Project-1-Name" : "-",
-                "Project-info" : "-",
-                "image-Right" : "-"
+                "Project_Name" : "-",
+                "Project_info" : "-",
+                "image_Right" : "-"
             },
             "Project2" :
             {
-                "Project-2-Name" : "-",
-                "Project-info" : "-",
-                "image-Right" : "-"
+                "Project_Name" : "-",
+                "Project_info" : "-",
+                "image_Right" : "-"
             }
         }
     }
