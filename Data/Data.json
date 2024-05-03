@@ -1,26 +1,24 @@
-[
+{
+    "head" : "-",
+    "Data" : 
     {
-        "head" : "-",
-        "Data" : 
+        "Data_Text" : "-",
+        "image_Right" : "-"
+    },
+    "Projects" :
+    {
+        "Project_num" : 2,
+        "Project1" :
         {
-            "Data_Text" : "-",
-           "image_Right" : "-"
+            "Project_Name" : "-",
+            "Project_info" : "-",
+            "image_Right" : "-"
         },
-        "Projects" :
+        "Project2" :
         {
-            "Project_num" : 2,
-            "Project1" :
-            {
-                "Project_Name" : "-",
-                "Project_info" : "-",
-                "image_Right" : "-"
-            },
-            "Project2" :
-            {
-                "Project_Name" : "-",
-                "Project_info" : "-",
-                "image_Right" : "-"
-            }
+            "Project_Name" : "-",
+            "Project_info" : "-",
+            "image_Right" : "-"
         }
     }
-]
+}
