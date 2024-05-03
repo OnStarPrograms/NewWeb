@@ -5,20 +5,18 @@
         "Data_Text" : "-",
         "image_Right" : "-"
     },
+    "Projects_num" : 2,
     "Projects" :
-    {
-        "Project_num" : 2,
-        "Project1" :
+    [
         {
             "Project_Name" : "-",
             "Project_info" : "-",
             "image_Right" : "-"
         },
-        "Project2" :
         {
             "Project_Name" : "-",
             "Project_info" : "-",
             "image_Right" : "-"
         }
-    }
+    ]
 }
