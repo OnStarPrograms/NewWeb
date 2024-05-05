@@ -2,10 +2,12 @@ function Fetched(json)
 {
     console.log(json.Information[0].head);
     console.log(json.Projects[0].Project_Name);
-    for (let i = 0; i < json.Information.length; i++)
-    {
-        document.getElementById("Center").innerHTML += "<h1>"+json.Information[i].head+"</h1>";
-    }
+    document.getElementById("Center").innerHTML += "<h3>I'm</h3><h1>></h1>";
+    document.getElementById("Center").innerHTML += "<h2>"+json.Header.Names[0]+"</h2>";
+    // for (let i = 0; i < json.Header.Names.length; i++)
+    // {
+    //     document.getElementById("Center").innerHTML += "<h2>"+json.Header.Names[i]+"</h2>";
+    // }
 }
 
 
