@@ -4,7 +4,7 @@ function Fetched(json)
     console.log(json.Projects[0].Project_Name);
     for (let i = 0; i < json.Information.length; i++)
     {
-        document.body.innerHTML += "<h1>"+json.Information[i].head+"</h1>";
+        document.getElementById("Center").innerHTML += "<h1>"+json.Information[i].head+"</h1>";
     }
 }
 

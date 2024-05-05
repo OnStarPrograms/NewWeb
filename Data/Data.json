@@ -1,4 +1,15 @@
 {
+    "Header" :
+    {
+        "Names" :
+        [
+            "A Developer",
+            "A Teacher",
+            "A Photographer",
+            "A Designer",
+            "Aiden T"
+        ]
+    },
     "Information" :
     [
         {
@@ -10,7 +21,7 @@
                 "image_Right" : "-"
             }
         },
-        
+
         {
             "head" : "-",
             "Position" : 0,
