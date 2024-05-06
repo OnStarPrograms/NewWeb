@@ -12,7 +12,18 @@ function setJsoner(json)
 function loadData()
 {
     document.getElementById("Text").innerHTML = "";
-    document.getElementById("Text").innerHTML += "<";
+    document.getElementById("Text").innerHTML = jsonner.Information[Math.abs(track)].Data.Data_Text;
+    var image = jsonner.Information[Math.abs(track)].Data.image;
+    if (image[0] == true)
+    {
+        if (image[1] == "center")
+        {
+            for (var i = 2; i < image.length; i++)
+            {
+                document.getElementById("Text").innerHTML += '<img id = "Image" src = "'+image[i]+'" alt = "MaxWell">';
+            }
+        }
+    }
 }
 
 function Fetched()
