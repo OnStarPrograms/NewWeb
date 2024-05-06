@@ -23,18 +23,18 @@ function Fetched()
     window.scrollTo(0,0);
     timeout = setTimeout(alertFunc, 30);
     track = track%jsonner.Information.length
-    console.log(jsonner.Information[0].head);
+    console.log(jsonner.Information[0].head[0]);
     console.log(jsonner.Projects[0].Project_Name);
     document.getElementById("Center").innerHTML = "";
     if (MChoice == 1)
     {
         document.getElementById("Center").innerHTML += "<h3>I'm</h3><h1>></h1>";
-        document.getElementById("Center").innerHTML += "<h2 id = 'color_"+Math.abs(track)+"' onclick = 'TogglePage();' class='noselect'>"+jsonner.Information[Math.abs(track)].head+"</h2>";
+        document.getElementById("Center").innerHTML += "<h2 id = 'color_"+Math.abs(track)+"' onclick = 'TogglePage();' class='noselect'>"+jsonner.Information[Math.abs(track)].head[0]+"</h2>";
         document.getElementById("Center").innerHTML += "<h2 id = 'UnderScore'>_</h2>";
     }
     else
     {
-        document.getElementById("Center").innerHTML += "<p style = 'position: fixed; top: 0%; padding-top: 0; font-size:1em; left: 0.5%;'>I'm</p><h3 id = 'color_"+Math.abs(track)+"' style = 'font-size: 3em; margin-left: 2%; position: fixed; width:100%; top:0; padding-top:1%; padding-bottom:20px;' onclick = 'TogglePage();' class='noselect navBar'>"+jsonner.Information[Math.abs(track)].head+"</h3>";
+        document.getElementById("Center").innerHTML += "<p style = 'position: fixed; top: 0%; padding-top: 0; font-size:1em; left: 0.5%;'>I'm</p><h3 id = 'color_"+Math.abs(track)+"' style = 'font-size: 3em; margin-left: 2%; position: fixed; width:100%; top:0; padding-top:1%; padding-bottom:20px;' onclick = 'TogglePage();' class='noselect navBar'>"+jsonner.Information[Math.abs(track)].head[0]+"</h3>";
         document.getElementById("Center").innerHTML += "<br class = 'breakline'>"
 
         loadData();

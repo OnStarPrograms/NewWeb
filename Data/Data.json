@@ -6,7 +6,7 @@
             "Data" : 
             {
                 "Data_Text" : "Lorem Ipsum",
-                "image" : [false],
+                "image" : [true, "center", "Images/cover1.jpg"],
                 "Projects" : true,
                 "Project_num" : [0,2]
             }
