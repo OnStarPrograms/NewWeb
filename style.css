@@ -5,11 +5,11 @@ body
 
 #Dark, #AntiDark
 {
-    transition: all 2s;
-    position: absolute;
+    transition: all 1s;
+    position: fixed;
     width:100px;
     height: 100px;
-    top: 0;
+    bottom: 0;
     right: 0;
     opacity: 100%;
     font-size: 4em;
@@ -70,17 +70,32 @@ h2
     margin-left: 2%;
 }
 
-#SeeMore, #NextLine, #BackLine, #NextLine_, #BackLine_
+#SeeMore, #NextLine, #BackLine, #NextLine_, #BackLine_, p
 {
     display: inline-block;
     font-size: 4em;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+#Text
+{
+    font-size: 2em;
+    margin-left: 10%;
+    margin-right: 15%;
+    opacity: 0;
+}
+
+#Image
+{
+    width: 100%; 
+    height: auto;
+}
+
 #SeeMore
 {
+    transition: all 1s;
     margin-left:18%;
-    background-color: white;
+    /* background-color: white; */
     color:black;
     padding-left: 2%;
     padding-right: 2%;
@@ -88,9 +103,10 @@ h2
 
 #NextLine, #BackLine
 {
+    transition: all 1s;
     margin-top: 0%;
     font-size: 6em;
-    background-color: white;
+    /* background-color: white; */
     color:black;
     padding-left: 2%;
     padding-right: 2%;
@@ -101,23 +117,25 @@ h2
 #NextLine_, #BackLine_
 {
     transition: all 1s;
+    transition: all 1s;
     margin-top: 0%;
-    font-size: 6em;
+    font-size: 4em;
     display: inline-flex;
-    background-color: white;
     color:black;
-    padding-left: 2%;
-    padding-right: 2%;
+    padding-left: 1.25%;
+    padding-right: 1.25%;
     padding: auto;
     border-radius: 50%;
-    position: absolute;
-    right: 15%;
-    top:5%;
+    position: fixed;
+    right: 19%;
+    top:1%;
 }
 #BackLine_
 {
     right:25%;
 }
+
+
 
 #NextLine:hover, #BackLine:hover, #NextLine_:hover, #BackLine_:hover, #SeeMore:hover, #Dark:hover, #AntiDark:hover
 {
@@ -137,6 +155,11 @@ h2
     margin-left:23%;
 }
 
+.breakline
+{
+    border: 10px solid black;
+}
+
 .noselect {
     -webkit-touch-callout: none; /* iOS Safari */
       -webkit-user-select: none; /* Safari */
@@ -145,6 +168,7 @@ h2
           -ms-user-select: none; /* Internet Explorer/Edge */
               user-select: none; /* Non-prefixed version, currently
                                     supported by Chrome, Edge, Opera and Firefox */
+    cursor: pointer;
   }
 
 @media screen and (max-width: 900px)

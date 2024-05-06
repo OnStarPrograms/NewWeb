@@ -13,8 +13,7 @@
     "Information" :
     [
         {
-            "head" : "-",
-            "Position" : 0,
+            "head" : "Developer",
             "Data" : 
             {
                 "Data_Text" : "-",
@@ -23,8 +22,34 @@
         },
 
         {
-            "head" : "-",
-            "Position" : 0,
+            "head" : "Teacher",
+            "Data" : 
+            {
+                "Data_Text" : "-",
+                "image_Left" : "-"
+            }
+        },
+
+        {
+            "head" : "Photographer",
+            "Data" : 
+            {
+                "Data_Text" : "-",
+                "image_Center" : "-"
+            }
+        },
+
+        {
+            "head" : "Designer",
+            "Data" : 
+            {
+                "Data_Text" : "-",
+                "image_Right" : "-"
+            }
+        },
+
+        {
+            "head" : "Aiden",
             "Data" : 
             {
                 "Data_Text" : "-",
@@ -32,7 +57,6 @@
             }
         }
     ],
-    "Projects_num" : 2,
     "Projects" :
     [
         {

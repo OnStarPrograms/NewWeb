@@ -13,3 +13,37 @@ body.dark > #AntiDark
     z-index: 1;
     opacity: 100%;
 }
+
+body.dark #NextLine_, body.dark #BackLine_,body.dark #SeeMore, body.dark #NextLine, body.dark #BackLine
+{
+    transition: all 1s;
+    color: white;
+}
+
+body.dark #NextLine_:hover, body.dark #BackLine_:hover, body.dark #SeeMore:hover, body.dark #NextLine:hover, body.dark #BackLine:hover
+{
+    transition: all 1s;
+    color: black;
+    background-color: white;
+}
+body.dark .navBar
+{
+    transition: all 2s;
+    padding-bottom: 1%;
+    /* background-color: black; */
+    background-color: #15181c;
+}
+.navBar
+{
+    transition: all 2s;
+    padding-bottom: 1%;
+    /* background-color: black; */
+    background-color: white;
+}
+body.Visible #Text
+{
+    opacity: 100%;
+}
+
+body {overflow: hidden}
+body.Visible2 {overflow: scroll}
