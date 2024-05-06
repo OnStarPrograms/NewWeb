@@ -1,16 +1,50 @@
-/* Delete this */
-.overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    opacity: 15%;
-    width: 100%;
-    height: 100%;
-    background: url("Images/Screenshot\ 2024-05-05\ 115803.png");
-    background-size: contain;
-  }
-/* Delete This */
+body
+{
+    transition: all 2s;
+}
 
+#Dark, #AntiDark
+{
+    transition: all 2s;
+    position: absolute;
+    width:100px;
+    height: 100px;
+    top: 0;
+    right: 0;
+    opacity: 100%;
+    font-size: 4em;
+    margin-right: 5%;
+    margin-top: 2%;
+    padding-top: 25px;
+    text-align: center;
+    background-color: white;
+    color:black;
+    border-radius: 25%;
+}
+
+#AntiDark
+{
+    z-index: -1;
+    opacity: 0%;
+
+}
+
+#color_1
+{
+    color: green;
+}
+#color_2
+{
+    color: purple;
+}
+#color_3
+{
+    color: red;
+}
+#color_4
+{
+    color: blue;
+}
 
 h3 , h1 , h2
 {
@@ -28,11 +62,94 @@ h1 , h2
 }
 h2
 {
+    margin-left: 2%;
+    padding-right: 0%;
+}
+#UnderScore
+{
+    margin-left: 2%;
+}
+
+#SeeMore, #NextLine, #BackLine, #NextLine_, #BackLine_
+{
+    display: inline-block;
+    font-size: 4em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#SeeMore
+{
+    margin-left:18%;
+    background-color: white;
+    color:black;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+#NextLine, #BackLine
+{
+    margin-top: 0%;
+    font-size: 6em;
+    background-color: white;
+    color:black;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding: auto;
+    border-radius: 50%;
+}
+
+#NextLine_, #BackLine_
+{
+    transition: all 1s;
+    margin-top: 0%;
+    font-size: 6em;
+    display: inline-flex;
+    background-color: white;
+    color:black;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding: auto;
+    border-radius: 50%;
+    position: absolute;
+    right: 15%;
+    top:5%;
+}
+#BackLine_
+{
+    right:25%;
+}
+
+#NextLine:hover, #BackLine:hover, #NextLine_:hover, #BackLine_:hover, #SeeMore:hover, #Dark:hover, #AntiDark:hover
+{
+    transition: all 1s;
+    background-color: black;
+    color:white;
+    cursor: pointer;
+}
+
+#NextLine
+{
     margin-left: 3%;
 }
+
+#BackLine
+{
+    margin-left:23%;
+}
+
+.noselect {
+    -webkit-touch-callout: none; /* iOS Safari */
+      -webkit-user-select: none; /* Safari */
+       -khtml-user-select: none; /* Konqueror HTML */
+         -moz-user-select: none; /* Old versions of Firefox */
+          -ms-user-select: none; /* Internet Explorer/Edge */
+              user-select: none; /* Non-prefixed version, currently
+                                    supported by Chrome, Edge, Opera and Firefox */
+  }
+
 @media screen and (max-width: 900px)
 {
-    h3 , h1 , h2
+    h3 , h1 , h2, #NextLine, #BackLine, #SeeMore
     {
         font-size: 4em;
     }
@@ -43,12 +160,24 @@ h2
 }
 @media screen and (max-width: 700px)
 {
-    h3 , h1 , h2
+    h3 , h1 , h2, #NextLine, #BackLine, #SeeMore
     {
         font-size: 2em;
     }
     h1 , h2
     {
         font-size: 4em;
+    }
+}
+
+@media screen and (max-width: 500px)
+{
+    h3 , h1 , h2, #NextLine, #BackLine, #SeeMore
+    {
+        font-size: 1rem;
+    }
+    h1 , h2
+    {
+        font-size: 1em;
     }
 }

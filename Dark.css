@@ -1,0 +1,15 @@
+body.dark
+{
+    background-color: #15181c;
+    color: white;
+}
+body.dark > #Dark
+{
+    opacity: 0%;
+}
+
+body.dark > #AntiDark
+{
+    z-index: 1;
+    opacity: 100%;
+}
