@@ -1,19 +1,8 @@
 {
-    "Header" :
-    {
-        "Names" :
-        [
-            "A Developer",
-            "A Teacher",
-            "A Photographer",
-            "A Designer",
-            "Aiden Thomas"
-        ]
-    },
     "Information" :
     [
         {
-            "head" : "Developer",
+            "head" : "A Developer",
             "Data" : 
             {
                 "Data_Text" : "Lorem Ipsum",
@@ -24,7 +13,7 @@
         },
 
         {
-            "head" : "Teacher",
+            "head" : "A Teacher",
             "Data" : 
             {
                 "Data_Text" : "Lorem Ipsum",
@@ -35,7 +24,7 @@
         },
 
         {
-            "head" : "Photographer",
+            "head" : "A Photographer",
             "Data" : 
             {
                 "Data_Text" : "Lorem Ipsum",
@@ -46,7 +35,7 @@
         },
 
         {
-            "head" : "Designer",
+            "head" : "A Designer",
             "Data" : 
             {
                 "Data_Text" : "Lorem Ipsum",
@@ -57,7 +46,7 @@
         },
 
         {
-            "head" : "Aiden",
+            "head" : "Aiden Thomas",
             "Data" : 
             {
                 "Data_Text" : "Lorem Ipsum",
