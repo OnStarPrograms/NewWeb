@@ -16,8 +16,10 @@
             "head" : "Developer",
             "Data" : 
             {
-                "Data_Text" : "-",
-                "image_Right" : "-"
+                "Data_Text" : "Lorem Ipsum",
+                "image" : [false],
+                "Projects" : true,
+                "Project_num" : [0,2]
             }
         },
 
@@ -25,8 +27,10 @@
             "head" : "Teacher",
             "Data" : 
             {
-                "Data_Text" : "-",
-                "image_Left" : "-"
+                "Data_Text" : "Lorem Ipsum",
+                "image" : [false],
+                "Projects" : true,
+                "Project_num" : [1]
             }
         },
 
@@ -34,8 +38,10 @@
             "head" : "Photographer",
             "Data" : 
             {
-                "Data_Text" : "-",
-                "image_Center" : "-"
+                "Data_Text" : "Lorem Ipsum",
+                "image" : [true, "center", "Images/-"],
+                "Projects" : false,
+                "Project_num" : [0]
             }
         },
 
@@ -43,8 +49,10 @@
             "head" : "Designer",
             "Data" : 
             {
-                "Data_Text" : "-",
-                "image_Right" : "-"
+                "Data_Text" : "Lorem Ipsum",
+                "image" : [true, "right", "Images/-"],
+                "Projects" : false,
+                "Project_num" : [0]
             }
         },
 
@@ -52,23 +60,29 @@
             "head" : "Aiden",
             "Data" : 
             {
-                "Data_Text" : "-",
-                "image_Right" : "-"
+                "Data_Text" : "Lorem Ipsum",
+                "image" : [true, "center", "Images/cover1.jpg", "Images/cover1.jpg", "Images/cover1.jpg"],
+                "Projects" : false,
+                "Project_num" : [0]
             }
         }
     ],
     "Projects" :
     [
         {
-            "Project_Name" : "-",
-            "Position" : 1,
+            "Project_Name" : "MineSweeper",
             "Project_info" : "-",
-            "image_Right" : "-"
+            "image" : [true, "right", "Images/-"]
         },
         {
             "Project_Name" : "-",
             "Project_info" : "-",
-            "image_Right" : "-"
+            "image" : [true, "right", "Images/-"]
+        },
+        {
+            "Project_Name" : "-",
+            "Project_info" : "-",
+            "image" : [true, "right", "Images/-"]
         }
     ]
 }

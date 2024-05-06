@@ -9,6 +9,12 @@ function setJsoner(json)
     Fetched();
 }
 
+function loadData()
+{
+    document.getElementById("Text").innerHTML = "";
+    document.getElementById("Text").innerHTML += "<";
+}
+
 function Fetched()
 {
     document.body.classList.toggle("Visible2");
@@ -28,6 +34,8 @@ function Fetched()
     {
         document.getElementById("Center").innerHTML += "<p style = 'position: fixed; top: 0%; padding-top: 0; font-size:1em; left: 0.5%;'>I'm</p><h3 id = 'color_"+Math.abs(track)+"' style = 'font-size: 3em; margin-left: 2%; position: fixed; width:100%; top:0; padding-top:1%; padding-bottom:20px;' onclick = 'TogglePage();' class='noselect navBar'>"+jsonner.Header.Names[Math.abs(track)]+"</h3>";
         document.getElementById("Center").innerHTML += "<br class = 'breakline'>"
+
+        loadData();
     }
     choices(MChoice);
 }
