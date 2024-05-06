@@ -14,16 +14,7 @@ function loadData()
     document.getElementById("Text").innerHTML = "";
     document.getElementById("Text").innerHTML = jsonner.Information[Math.abs(track)].Data.Data_Text;
     var image = jsonner.Information[Math.abs(track)].Data.image;
-    if (image[0] == true)
-    {
-        if (image[1] == "center")
-        {
-            for (var i = 2; i < image.length; i++)
-            {
-                document.getElementById("Text").innerHTML += '<img id = "Image" src = "'+image[i]+'" alt = "MaxWell">';
-            }
-        }
-    }
+    load_images(image);
 }
 
 function Fetched()
@@ -50,6 +41,19 @@ function Fetched()
     }
     choices(MChoice);
 }
+
+function load_images(imageList) {
+    if (imageList[0] == true)
+        {
+            if (imageList[1] == "center")
+            {
+                for (var i = 2; i < imageList.length; i++)
+                {
+                    document.getElementById("Text").innerHTML += '<img id = "Image" src = "'+imageList[i]+'" alt = "MaxWell">';
+                }
+            }
+        }
+  }
 
 function TogglePage()
 {

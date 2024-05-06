@@ -2,7 +2,7 @@
     "Information" :
     [
         {
-            "head" : "A Developer",
+            "head" : ["A Developer"],
             "Data" : 
             {
                 "Data_Text" : "Lorem Ipsum",
@@ -13,7 +13,7 @@
         },
 
         {
-            "head" : "A Teacher",
+            "head" : ["A Teacher"],
             "Data" : 
             {
                 "Data_Text" : "Lorem Ipsum",
@@ -24,7 +24,7 @@
         },
 
         {
-            "head" : "A Photographer",
+            "head" : ["A Photographer"],
             "Data" : 
             {
                 "Data_Text" : "Lorem Ipsum",
@@ -35,7 +35,7 @@
         },
 
         {
-            "head" : "A Designer",
+            "head" : ["A Designer"],
             "Data" : 
             {
                 "Data_Text" : "Lorem Ipsum",
@@ -46,7 +46,7 @@
         },
 
         {
-            "head" : "Aiden Thomas",
+            "head" : ["Aiden Thomas"],
             "Data" : 
             {
                 "Data_Text" : "Lorem Ipsum",
