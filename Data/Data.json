@@ -8,7 +8,8 @@
                 "Data_Text" : "Lorem Ipsum",
                 "image" : [true, "center", "Images/cover1.jpg"],
                 "Projects" : true,
-                "Project_num" : [0,2]
+                "Project_num" : [0,2],
+                "Links": [false]
             }
         },
 
@@ -19,7 +20,8 @@
                 "Data_Text" : "Lorem Ipsum",
                 "image" : [false],
                 "Projects" : true,
-                "Project_num" : [1]
+                "Project_num" : [1],
+                "Links": [false]
             }
         },
 
@@ -30,7 +32,8 @@
                 "Data_Text" : "Lorem Ipsum",
                 "image" : [true, "center", "Images/-"],
                 "Projects" : false,
-                "Project_num" : [0]
+                "Project_num" : [0],
+                "Links": [false]
             }
         },
 
@@ -41,7 +44,8 @@
                 "Data_Text" : "Lorem Ipsum",
                 "image" : [true, "right", "Images/-"],
                 "Projects" : false,
-                "Project_num" : [0]
+                "Project_num" : [0],
+                "Links": [false]
             }
         },
 
@@ -52,7 +56,20 @@
                 "Data_Text" : "Lorem Ipsum",
                 "image" : [true, "center", "Images/cover1.jpg", "Images/cover1.jpg", "Images/cover1.jpg"],
                 "Projects" : false,
-                "Project_num" : [0]
+                "Project_num" : [0],
+                "Links": [false]
+            }
+        },
+
+        {
+            "head" : ["Past Websites"],
+            "Data" : 
+            {
+                "Data_Text" : "Lorem Ipsum",
+                "image" : [true, "center", "Images/cover1.jpg", "Images/cover1.jpg", "Images/cover1.jpg"],
+                "Projects" : false,
+                "Project_num" : [0],
+                "Links": [true, "https://aiden.starprograms.dev"]
             }
         }
     ],
