@@ -65,18 +65,20 @@
     [
         {
             "Project_Name" : "MineSweeper",
+            "Project_info" : ["By utilizing the SFML Library this minesweeper clone contains all the functionality of minesweeper while utilizing time saving systems.",
+                                "This project is an example of how object oriented programming can both increase a programs productivity and reduce its current sizing. ",
+                                "By implementing Breadth first searching algorithms this program is capable of changing multiple objects in a cascading pattern extremely quickly."],
+            "image" : [true, "center", "Images/cover1.jpg"]
+        },
+        {
+            "Project_Name" : "-",
             "Project_info" : "-",
             "image" : [true, "center", "Images/cover1.jpg"]
         },
         {
             "Project_Name" : "-",
             "Project_info" : "-",
-            "image" : [true, "center", "Images/-"]
-        },
-        {
-            "Project_Name" : "-",
-            "Project_info" : "-",
-            "image" : [true, "center", "Images/-"]
+            "image" : [true, "center", "Images/cover1.jpg"]
         }
     ]
 }

@@ -21,8 +21,9 @@ function loadData()
         for (var i = 0; i < projects.length; i++)
         {
             var current_Project = jsonner.Projects[projects[i]];
-            document.getElementById("Text").innerHTML += "<h4 style = 'font-size: 1.5em;'>"+current_Project.Project_Name+"<h4>";
-            document.getElementById("Text").innerHTML += current_Project.Project_info;
+            document.getElementById("Text").innerHTML += "<h4 style = 'font-size: 2em;'>"+current_Project.Project_Name+"<h4>";
+            for (var j = 0; j < current_Project.Project_info.length; j++)
+            document.getElementById("Text").innerHTML += "<h4 style = 'font-size: 1.5em;'>"+current_Project.Project_info[j]+"<h4>";
             load_images(current_Project.image);
         }
     }
