@@ -15,6 +15,17 @@ function loadData()
     document.getElementById("Text").innerHTML = jsonner.Information[Math.abs(track)].Data.Data_Text;
     var image = jsonner.Information[Math.abs(track)].Data.image;
     load_images(image);
+    var projects = jsonner.Information[Math.abs(track)].Data.Project_num;
+    if (jsonner.Information[Math.abs(track)].Data.Projects == true)
+    {
+        for (var i = 0; i < projects.length; i++)
+        {
+            var current_Project = jsonner.Projects[projects[i]];
+            document.getElementById("Text").innerHTML += "<h4 style = 'font-size: 1.5em;'>"+current_Project.Project_Name+"<h4>";
+            document.getElementById("Text").innerHTML += current_Project.Project_info;
+            load_images(current_Project.image);
+        }
+    }
 }
 
 function Fetched()
@@ -44,16 +55,25 @@ function Fetched()
 
 function load_images(imageList) {
     if (imageList[0] == true)
+    {
+        if (imageList[1] == "center")
         {
-            if (imageList[1] == "center")
+            for (var i = 2; i < imageList.length; i++)
             {
-                for (var i = 2; i < imageList.length; i++)
-                {
-                    document.getElementById("Text").innerHTML += '<img id = "Image" src = "'+imageList[i]+'" alt = "MaxWell">';
-                }
+                document.getElementById("Text").innerHTML += '<img id = "Image" src = "'+imageList[i]+'" alt = "MaxWell">';
             }
         }
-  }
+    }
+}
+function load_links(LinkLists) {
+    if (LinkLists[0] == true)
+    {
+        for (var i = 1; i < LinkLists.length; i++)
+        {
+            document.getElementById("Text").innerHTML += '<a id = "Link" src = "'+LinkLists[i]+'">';
+        }
+    }
+}
 
 function TogglePage()
 {

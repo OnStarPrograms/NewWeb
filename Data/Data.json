@@ -78,17 +78,17 @@
         {
             "Project_Name" : "MineSweeper",
             "Project_info" : "-",
-            "image" : [true, "right", "Images/-"]
+            "image" : [true, "center", "Images/-"]
         },
         {
             "Project_Name" : "-",
             "Project_info" : "-",
-            "image" : [true, "right", "Images/-"]
+            "image" : [true, "center", "Images/-"]
         },
         {
             "Project_Name" : "-",
             "Project_info" : "-",
-            "image" : [true, "right", "Images/-"]
+            "image" : [true, "center", "Images/-"]
         }
     ]
 }
