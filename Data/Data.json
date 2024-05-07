@@ -45,7 +45,7 @@
             "Data" : 
             {
                 "Data_Text" : [""],
-                "image" : [true, "right", "Images/Aiden_Thomas_A4_3.webp",
+                "image" : [true, "center", "Images/Aiden_Thomas_A4_3.webp",
                                         "Images/IMG_2995.webp"],
                 "Projects" : false,
                 "Project_num" : [0],
@@ -78,7 +78,7 @@
         {
             "Project_Name" : "Tutor",
             "Project_info" : ["Worked in Satellite High School as a programming tutor and volunteer TA for the 2023 Year."],
-            "image" : [true, "center", "Images/cover1.webp"],
+            "image" : [true, "right", "Images/cover1.webp"],
             "Links": [false]
         },
         {

@@ -70,7 +70,7 @@ function load_images(imageList) {
             {
                 for (var i = 2; i < imageList.length; i++)
                 {
-                    document.getElementById("Text").innerHTML += '<img id = "Image" style = "float: right;" src = "'+imageList[i]+'" alt = "MaxWell">';
+                    document.getElementById("Text").innerHTML += '<img id = "Image" style = "float: right; width: 25%" src = "'+imageList[i]+'" alt = "MaxWell">';
                 }
             }
     }
