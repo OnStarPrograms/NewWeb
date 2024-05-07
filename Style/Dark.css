@@ -36,9 +36,9 @@ body.dark .navBar
 .navBar
 {
     transition: all 2s;
-    padding-bottom: 1%;
+    padding-bottom: 20px;
     /* background-color: black; */
-    background-color: white;
+    background-color: #FFFFFF;
 }
 body.Visible #Text
 {
