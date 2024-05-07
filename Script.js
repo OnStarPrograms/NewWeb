@@ -24,9 +24,21 @@ function loadData()
             var current_Project = jsonner.Projects[projects[i]];
             document.getElementById("Text").innerHTML += "<h4 style = 'font-size: 2em; text-decoration: underline;'>"+current_Project.Project_Name+"<h4>";
             load_links(current_Project.Links);
+            var mset = 0;
+            if (current_Project.image[0] == true)
+            {
+                if (current_Project.image[1] == "right")
+                {
+                    load_images(current_Project.image);
+                    mset = 1;
+                }
+            }
             for (var j = 0; j < current_Project.Project_info.length; j++)
                 document.getElementById("Text").innerHTML += "<h4 style = 'font-size: 1em;'>"+current_Project.Project_info[j]+"<h4>";
-            load_images(current_Project.image);
+            if (mset == 0)
+            {
+                load_images(current_Project.image);
+            }
         }
     }
 }

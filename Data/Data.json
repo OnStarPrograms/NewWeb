@@ -8,7 +8,7 @@
                 "Data_Text" : [""],
                 "image" : [false],
                 "Projects" : true,
-                "Project_num" : [0, 2, 3],
+                "Project_num" : [0, 2, 4, 3],
                 "Links": [false]
             }
         },
@@ -94,7 +94,15 @@
                                 "This software was originally developed to allow a user to control their system and circumvent Anticheat software to play Valorant on a 3Ds",
                                 "<span style = 'font-style: italic;'>I did not circumvent riot vanguard to cheat</span>"],
             "image" : [true, "center", "Images/valorant.webp"],
-            "Links": [true, "https://github.com/OnStarPrograms/3dsSocket"]
+            "Links": [true, "https://github.com/OnStarPrograms/3dsSocket", "Github"]
+        },
+        {
+            "Project_Name" : "Mail Automation with Gmail and python",
+            "Project_info" : ["By Integrating the G-mail API into python with a database link, this project allows for a Pseudo-Server to be run within the IMAP/POP server system.",
+                                "Which allows for a user to have access to the local computer that happens to be connected to the affected E-mail account.",
+                                "This program was designed and developed to provide an example of an easy E-mail based automation tool."],
+            "image" : [true, "center", "Images/Gmail.webp"],
+            "Links": [true, "Download/MailAutomater.zip", "Direct Download"]
         }
     ]
 }
