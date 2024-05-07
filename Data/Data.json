@@ -72,7 +72,7 @@
                                 "This project is an example of how object oriented programming can both increase a programs productivity and reduce its current sizing. ",
                                 "Through the implementation of the Breadth first searching algorithms this program is capable of changing multiple bomb tiles in a cascading pattern extremely quickly."],
             "image" : [true, "center", "Images/MineSweeper.webp"],
-            "Links": [true, "https://github.com/OnStarPrograms/MineSweeper"]
+            "Links": [true, "https://github.com/OnStarPrograms/MineSweeper", "Github"]
         },
         {
             "Project_Name" : "Tutor",
@@ -85,7 +85,7 @@
             "Project_info" : ["Using the Rust programming language, this project reads multiple .TGA files, saves image data, in regard to the header, and preforms a series of industry standard image manipulations.",
                                 "This project was created to provide a example of how industry standard data manipulation algorithms can be integrated easily in many current applications and languages."],
             "image" : [true, "center", "Images/TGA.webp"],
-            "Links": [true, "https://github.com/OnStarPrograms/TGA_Manipulator"]
+            "Links": [true, "https://github.com/OnStarPrograms/TGA_Manipulator", "Github"]
         }
     ]
 }

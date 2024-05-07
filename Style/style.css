@@ -70,11 +70,16 @@ h2
     margin-left: 2%;
 }
 
-#SeeMore, #NextLine, #BackLine, #NextLine_, #BackLine_, p
+#SeeMore, #NextLine, #BackLine, #NextLine_, #BackLine_, p, .Link
 {
     display: inline-block;
     font-size: 4em;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.Link
+{
+    font-size: 1em;
 }
 
 #Text
