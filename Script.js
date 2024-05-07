@@ -12,7 +12,8 @@ function setJsoner(json)
 function loadData()
 {
     document.getElementById("Text").innerHTML = "";
-    document.getElementById("Text").innerHTML = jsonner.Information[Math.abs(track)].Data.Data_Text;
+    for (var j = 0; j < jsonner.Information[Math.abs(track)].Data.Data_Text.length; j++)
+        document.getElementById("Text").innerHTML = jsonner.Information[Math.abs(track)].Data.Data_Text[j];
     var image = jsonner.Information[Math.abs(track)].Data.image;
     load_images(image);
     var projects = jsonner.Information[Math.abs(track)].Data.Project_num;
@@ -21,9 +22,9 @@ function loadData()
         for (var i = 0; i < projects.length; i++)
         {
             var current_Project = jsonner.Projects[projects[i]];
-            document.getElementById("Text").innerHTML += "<h4 style = 'font-size: 2em;'>"+current_Project.Project_Name+"<h4>";
+            document.getElementById("Text").innerHTML += "<h4 style = 'font-size: 2em; text-decoration: underline;'>"+current_Project.Project_Name+"<h4>";
             for (var j = 0; j < current_Project.Project_info.length; j++)
-            document.getElementById("Text").innerHTML += "<h4 style = 'font-size: 1.5em;'>"+current_Project.Project_info[j]+"<h4>";
+                document.getElementById("Text").innerHTML += "<h4 style = 'font-size: 1em;'>"+current_Project.Project_info[j]+"<h4>";
             load_images(current_Project.image);
         }
     }

@@ -5,7 +5,7 @@
             "head" : ["A Developer"],
             "Data" : 
             {
-                "Data_Text" : "Lorem Ipsum",
+                "Data_Text" : ["Lorem Ipsum", ""],
                 "image" : [false],
                 "Projects" : true,
                 "Project_num" : [0,2],
@@ -17,7 +17,7 @@
             "head" : ["A Teacher"],
             "Data" : 
             {
-                "Data_Text" : "Lorem Ipsum",
+                "Data_Text" : ["Lorem Ipsum"],
                 "image" : [false],
                 "Projects" : true,
                 "Project_num" : [1],
@@ -29,8 +29,11 @@
             "head" : ["A Photographer"],
             "Data" : 
             {
-                "Data_Text" : "Lorem Ipsum",
-                "image" : [true, "center", "Images/$SCN0920.Id_360.jpg", "Images/$SCN1385-2.jpg", "Images/$SCN1602-2.jpg", "Images/DSCN1599-2.jpg"],
+                "Data_Text" : [""],
+                "image" : [true, "center", "Images/$SCN0920.Id_360.jpg",
+                                            "Images/$SCN1385-2.jpg",
+                                            "Images/$SCN1602-2.jpg",
+                                            "Images/DSCN1599-2.jpg"],
                 "Projects" : false,
                 "Project_num" : [0],
                 "Links": [false]
@@ -41,7 +44,7 @@
             "head" : ["A Designer"],
             "Data" : 
             {
-                "Data_Text" : "Lorem Ipsum",
+                "Data_Text" : ["Lorem Ipsum"],
                 "image" : [true, "right", "Images/-"],
                 "Projects" : false,
                 "Project_num" : [0],
@@ -53,7 +56,7 @@
             "head" : ["Aiden Thomas"],
             "Data" : 
             {
-                "Data_Text" : "Lorem Ipsum",
+                "Data_Text" : ["Lorem Ipsum"],
                 "image" : [true, "center", "Images/cover1.jpg", "Images/cover1.jpg", "Images/cover1.jpg"],
                 "Projects" : false,
                 "Project_num" : [0],
@@ -67,7 +70,7 @@
             "Project_Name" : "MineSweeper",
             "Project_info" : ["By utilizing the SFML Library this minesweeper clone contains all the functionality of minesweeper while utilizing time saving systems.",
                                 "This project is an example of how object oriented programming can both increase a programs productivity and reduce its current sizing. ",
-                                "By implementing Breadth first searching algorithms this program is capable of changing multiple objects in a cascading pattern extremely quickly."],
+                                "Through the implementation of the Breadth first searching algorithms this program is capable of changing multiple bomb tiles in a cascading pattern extremely quickly."],
             "image" : [true, "center", "Images/cover1.jpg"]
         },
         {
