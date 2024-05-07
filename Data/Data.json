@@ -59,18 +59,6 @@
                 "Project_num" : [0],
                 "Links": [false]
             }
-        },
-
-        {
-            "head" : ["Past Websites"],
-            "Data" : 
-            {
-                "Data_Text" : "Lorem Ipsum",
-                "image" : [true, "center", "Images/cover1.jpg", "Images/cover1.jpg", "Images/cover1.jpg"],
-                "Projects" : false,
-                "Project_num" : [0],
-                "Links": [true, "https://aiden.starprograms.dev"]
-            }
         }
     ],
     "Projects" :
