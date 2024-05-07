@@ -6,7 +6,7 @@
             "Data" : 
             {
                 "Data_Text" : "Lorem Ipsum",
-                "image" : [true, "center", "Images/cover1.jpg"],
+                "image" : [false],
                 "Projects" : true,
                 "Project_num" : [0,2],
                 "Links": [false]
@@ -30,7 +30,7 @@
             "Data" : 
             {
                 "Data_Text" : "Lorem Ipsum",
-                "image" : [true, "center", "Images/-"],
+                "image" : [true, "center", "Images/$SCN0920.Id_360.jpg", "Images/$SCN1385-2.jpg", "Images/$SCN1602-2.jpg", "Images/DSCN1599-2.jpg"],
                 "Projects" : false,
                 "Project_num" : [0],
                 "Links": [false]
@@ -66,7 +66,7 @@
         {
             "Project_Name" : "MineSweeper",
             "Project_info" : "-",
-            "image" : [true, "center", "Images/-"]
+            "image" : [true, "center", "Images/cover.jpg"]
         },
         {
             "Project_Name" : "-",
