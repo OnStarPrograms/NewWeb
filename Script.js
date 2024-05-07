@@ -66,6 +66,13 @@ function load_images(imageList) {
                 document.getElementById("Text").innerHTML += '<img id = "Image" src = "'+imageList[i]+'" alt = "MaxWell">';
             }
         }
+        if (imageList[1] == "right")
+            {
+                for (var i = 2; i < imageList.length; i++)
+                {
+                    document.getElementById("Text").innerHTML += '<img id = "Image" style = "float: right;" src = "'+imageList[i]+'" alt = "MaxWell">';
+                }
+            }
     }
 }
 function load_links(LinkLists) {

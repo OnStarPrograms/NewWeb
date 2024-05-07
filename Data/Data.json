@@ -8,7 +8,7 @@
                 "Data_Text" : [""],
                 "image" : [false],
                 "Projects" : true,
-                "Project_num" : [0,2],
+                "Project_num" : [0, 2, 3],
                 "Links": [false]
             }
         },
@@ -17,7 +17,7 @@
             "head" : ["A Teacher"],
             "Data" : 
             {
-                "Data_Text" : ["Lorem Ipsum"],
+                "Data_Text" : [""],
                 "image" : [false],
                 "Projects" : true,
                 "Project_num" : [1],
@@ -45,7 +45,8 @@
             "Data" : 
             {
                 "Data_Text" : [""],
-                "image" : [true, "right", "Images/-"],
+                "image" : [true, "right", "Images/Aiden_Thomas_A4_3.webp",
+                                        "Images/IMG_2995.webp"],
                 "Projects" : false,
                 "Project_num" : [0],
                 "Links": [false]
@@ -86,6 +87,14 @@
                                 "This project was created to provide a example of how industry standard data manipulation algorithms can be integrated easily in many current applications and languages."],
             "image" : [true, "center", "Images/TGA.webp"],
             "Links": [true, "https://github.com/OnStarPrograms/TGA_Manipulator", "Github"]
+        },
+        {
+            "Project_Name" : "3Ds Socket Programming in C",
+            "Project_info" : ["This project was designed to allow a Handheld 3rd Party C Based Digital Graphics System, 3DS For short, to communicate data through the TCP port into a receiver computer and leverage this real time data to control important system accessibility functions without the usage of other system peripherals.",
+                                "This software was originally developed to allow a user to control their system and circumvent Anticheat software to play Valorant on a 3Ds",
+                                "<strong>I did not circumvent valorant to cheat</strong>"],
+            "image" : [true, "center", "Images/valorant.webp"],
+            "Links": [true, "https://github.com/OnStarPrograms/3dsSocket"]
         }
     ]
 }
