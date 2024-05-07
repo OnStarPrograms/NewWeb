@@ -92,7 +92,7 @@
             "Project_Name" : "3Ds Socket Programming in C",
             "Project_info" : ["This project was designed to allow a Handheld 3rd Party C Based Digital Graphics System, 3DS For short, to communicate data through the TCP port into a receiver computer and leverage this real time data to control important system accessibility functions without the usage of other system peripherals.",
                                 "This software was originally developed to allow a user to control their system and circumvent Anticheat software to play Valorant on a 3Ds",
-                                "<strong>I did not circumvent valorant to cheat</strong>"],
+                                "<span style = 'font-style: italic;'>I did not circumvent riot vanguard to cheat</span>"],
             "image" : [true, "center", "Images/valorant.webp"],
             "Links": [true, "https://github.com/OnStarPrograms/3dsSocket"]
         }
