@@ -80,6 +80,7 @@ h2
 .Link
 {
     font-size: 1em;
+    display: block;
 }
 
 #Text

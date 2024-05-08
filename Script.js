@@ -91,7 +91,7 @@ function load_links(LinkLists) {
     {
         for (var i = 1; i < LinkLists.length; i+=2)
         {
-            document.getElementById("Text").innerHTML += '<a class = "Link" href = "'+LinkLists[i]+'">'+LinkLists[i+1]+'</a>';
+            document.getElementById("Text").innerHTML += '<a class = "Link" href = "'+LinkLists[i]+' target = "_blank">'+LinkLists[i+1]+'</a>';
         }
     }
 }
