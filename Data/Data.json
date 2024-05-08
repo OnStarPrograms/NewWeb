@@ -61,13 +61,15 @@
                                 "helps to support the Satellite High Schools Fine Arts program and the community through acts of philanthropy. ",
                                 "Interested in innovation within Software Development; Communication; Teamwork; and Cyber-S.I.T. ",
                                 "He has received multiple industry certifications in software development."],
-                "image" : [true, "right", "Images/cover1.webp"],
+                "image" : [true, "right", "Images/Aiden.jpg"],
                 "Projects" : true,
                 "Project_num" : [5, 6, 7],
                 "Links": [false]
             }
         }
     ],
+
+
     "Projects" :
     [
         {
@@ -79,11 +81,11 @@
             "Links": [true, "https://github.com/OnStarPrograms/MineSweeper", "Github"]
         },
         {
-            "Project_Name" : "Tutor",
+            "Project_Name" : "Tutor (2023)",
             "Project_info" : ["Worked in Satellite High School as a programming tutor and volunteer TA for the 2023 Year.",
                              "Some duties pertaining to being a volunteer TA are;",
                              "Tutoring, scheduling, and grading coursework."],
-            "image" : [true, "right", "Images/cover1.webp"],
+            "image" : [true, "right", "Images/SatelliteHigh.jpg"],
             "Links": [false]
         },
         {

@@ -2,6 +2,7 @@ var track = 0;
 var jsonner;
 var MChoice = 1;
 var track = 0;
+var track2
 
 function setJsoner(json)
 {
@@ -11,7 +12,7 @@ function setJsoner(json)
 
 function loadData()
 {
-    var image = jsonner.Information[Math.abs(track)].Data.image;
+    var image = jsonner.Information[Math.abs(track2)].Data.image;
     document.getElementById("Text").innerHTML = "";
     var mset = 0;
     if (image[0] == true)
@@ -22,14 +23,14 @@ function loadData()
             mset = 1;
         }
     }
-    for (var j = 0; j < jsonner.Information[Math.abs(track)].Data.Data_Text.length; j++)
-        document.getElementById("Text").innerHTML += jsonner.Information[Math.abs(track)].Data.Data_Text[j];
+    for (var j = 0; j < jsonner.Information[Math.abs(track2)].Data.Data_Text.length; j++)
+        document.getElementById("Text").innerHTML += jsonner.Information[Math.abs(track2)].Data.Data_Text[j];
     if (mset == 0)
     {
         load_images(image);
     }
-    var projects = jsonner.Information[Math.abs(track)].Data.Project_num;
-    if (jsonner.Information[Math.abs(track)].Data.Projects == true)
+    var projects = jsonner.Information[Math.abs(track2)].Data.Project_num;
+    if (jsonner.Information[Math.abs(track2)].Data.Projects == true)
     {
         for (var i = 0; i < projects.length; i++)
         {
@@ -61,18 +62,26 @@ function Fetched()
     window.scrollTo(0,0);
     timeout = setTimeout(alertFunc, 30);
     track = track%jsonner.Information.length
+    if (track < 0)
+    {
+        track2 = jsonner.Information.length+track;
+    }
+    else
+    {
+        track2 = track;
+    }
     console.log(jsonner.Information[0].head[0]);
     console.log(jsonner.Projects[0].Project_Name);
     document.getElementById("Center").innerHTML = "";
     if (MChoice == 1)
     {
         document.getElementById("Center").innerHTML += "<h3>I'm</h3><h1>></h1>";
-        document.getElementById("Center").innerHTML += "<h2 id = 'color_"+Math.abs(track)+"' onclick = 'TogglePage();' class='noselect'>"+jsonner.Information[Math.abs(track)].head[0]+"</h2>";
+        document.getElementById("Center").innerHTML += "<h2 id = 'color_"+Math.abs(track2)+"' onclick = 'TogglePage();' class='noselect'>"+jsonner.Information[Math.abs(track2)].head[0]+"</h2>";
         document.getElementById("Center").innerHTML += "<h2 id = 'UnderScore'>_</h2>";
     }
     else
     {
-        document.getElementById("Center").innerHTML += "<p style = 'position: fixed; top: 0%; padding-top: 0; font-size:1em; left: 0.5%;'>I'm</p><h3 id = 'color_"+Math.abs(track)+"' style = 'font-size: 3em; margin-left: 2%; position: fixed; width:100%; top:0; padding-top:1%; padding-bottom:20px;' onclick = 'TogglePage();' class='noselect navBar'>"+jsonner.Information[Math.abs(track)].head[0]+"</h3>";
+        document.getElementById("Center").innerHTML += "<p style = 'position: fixed; top: 0%; padding-top: 0; font-size:1em; left: 0.5%;'>I'm</p><h3 id = 'color_"+Math.abs(track2)+"' style = 'font-size: 3em; margin-left: 2%; position: fixed; width:100%; top:0; padding-top:1%; padding-bottom:20px;' onclick = 'TogglePage();' class='noselect navBar'>"+jsonner.Information[Math.abs(track2)].head[0]+"</h3>";
         document.getElementById("Center").innerHTML += "<br class = 'breakline'>"
         loadData();
     }
