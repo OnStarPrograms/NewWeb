@@ -11,11 +11,23 @@ function setJsoner(json)
 
 function loadData()
 {
-    document.getElementById("Text").innerHTML = "";
-    for (var j = 0; j < jsonner.Information[Math.abs(track)].Data.Data_Text.length; j++)
-        document.getElementById("Text").innerHTML = jsonner.Information[Math.abs(track)].Data.Data_Text[j];
     var image = jsonner.Information[Math.abs(track)].Data.image;
-    load_images(image);
+    document.getElementById("Text").innerHTML = "";
+    var mset = 0;
+    if (image[0] == true)
+    {
+        if (image[1] != "center")
+        {
+            load_images(image);
+            mset = 1;
+        }
+    }
+    for (var j = 0; j < jsonner.Information[Math.abs(track)].Data.Data_Text.length; j++)
+        document.getElementById("Text").innerHTML += jsonner.Information[Math.abs(track)].Data.Data_Text[j];
+    if (mset == 0)
+    {
+        load_images(image);
+    }
     var projects = jsonner.Information[Math.abs(track)].Data.Project_num;
     if (jsonner.Information[Math.abs(track)].Data.Projects == true)
     {
@@ -91,7 +103,7 @@ function load_links(LinkLists) {
     {
         for (var i = 1; i < LinkLists.length; i+=2)
         {
-            document.getElementById("Text").innerHTML += '<a class = "Link" href = "'+LinkLists[i]+' target = "_blank">'+LinkLists[i+1]+'</a>';
+            document.getElementById("Text").innerHTML += '<a class = "Link" href = "'+LinkLists[i]+'" target = "_blank">'+LinkLists[i+1]+'</a>';
         }
     }
 }
