@@ -161,6 +161,6 @@ function ToggleDarkMode()
 //https://test.starprograms.dev/Data/Data.json - WebJson
 //.Data/Data.json - Local Json
 
-fetch('https://test.starprograms.dev/Data/Data.json') 
+fetch('.Data/Data.json') 
     .then((response) => response.json())
     .then((json) => setJsoner(json));
