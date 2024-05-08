@@ -27,7 +27,7 @@ function loadData()
             var mset = 0;
             if (current_Project.image[0] == true)
             {
-                if (current_Project.image[1] == "right")
+                if (current_Project.image[1] != "center")
                 {
                     load_images(current_Project.image);
                     mset = 1;
@@ -62,7 +62,6 @@ function Fetched()
     {
         document.getElementById("Center").innerHTML += "<p style = 'position: fixed; top: 0%; padding-top: 0; font-size:1em; left: 0.5%;'>I'm</p><h3 id = 'color_"+Math.abs(track)+"' style = 'font-size: 3em; margin-left: 2%; position: fixed; width:100%; top:0; padding-top:1%; padding-bottom:20px;' onclick = 'TogglePage();' class='noselect navBar'>"+jsonner.Information[Math.abs(track)].head[0]+"</h3>";
         document.getElementById("Center").innerHTML += "<br class = 'breakline'>"
-
         loadData();
     }
     choices(MChoice);
@@ -78,13 +77,13 @@ function load_images(imageList) {
                 document.getElementById("Text").innerHTML += '<img id = "Image" src = "'+imageList[i]+'" alt = "MaxWell">';
             }
         }
-        if (imageList[1] == "right")
+        else
+        {
+            for (var i = 2; i < imageList.length; i++)
             {
-                for (var i = 2; i < imageList.length; i++)
-                {
-                    document.getElementById("Text").innerHTML += '<img id = "Image" style = "float: right; width: 25%" src = "'+imageList[i]+'" alt = "MaxWell">';
-                }
+                document.getElementById("Text").innerHTML += '<img id = "Image" style = "float: '+imageList[1]+'; width: 25%" src = "'+imageList[i]+'" alt = "MaxWell">';
             }
+        }
     }
 }
 function load_links(LinkLists) {
@@ -107,11 +106,6 @@ function TogglePage()
     {
         MChoice = 1;
     }
-    // if (track == 0)
-    // {
-    //     document.body.classList.toggle("Visible2");
-    //     track++;
-    // }
     document.body.classList.toggle("Visible");
     window.scrollTo(0,0);
     timeout = setTimeout(alertFunc, 50);

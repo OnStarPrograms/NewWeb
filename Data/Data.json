@@ -57,10 +57,13 @@
             "head" : ["Aiden Thomas"],
             "Data" : 
             {
-                "Data_Text" : ["Lorem Ipsum"],
+                "Data_Text" : ["A student at UF, who focuses on helping teachers, and seeks out enjoyment in machine manipulations.",
+                                "helps to support the Satellite High Schools Fine Arts program and the community through acts of philanthropy. ",
+                                "Interested in innovation within Software Development; Communication; Teamwork; and Cyber-S.I.T. ",
+                                "He has received multiple industry certifications in software development."],
                 "image" : [true, "center", "Images/cover1.webp"],
-                "Projects" : false,
-                "Project_num" : [0],
+                "Projects" : true,
+                "Project_num" : [5, 6],
                 "Links": [false]
             }
         }
@@ -77,7 +80,9 @@
         },
         {
             "Project_Name" : "Tutor",
-            "Project_info" : ["Worked in Satellite High School as a programming tutor and volunteer TA for the 2023 Year."],
+            "Project_info" : ["Worked in Satellite High School as a programming tutor and volunteer TA for the 2023 Year.",
+                             "Some duties pertaining to being a volunteer TA are;",
+                             "Tutoring, scheduling, and grading coursework."],
             "image" : [true, "right", "Images/cover1.webp"],
             "Links": [false]
         },
@@ -103,6 +108,29 @@
                                 "This program was designed and developed to provide an example of an easy E-mail based automation tool."],
             "image" : [true, "center", "Images/Gmail.webp"],
             "Links": [true, "Download/MailAutomater.zip", "Direct Download"]
+        },
+        {
+            "Project_Name" : "Skills",
+            "Project_info" : ["Internet Research",
+                            "Python /Java/C++/Rust",
+                            "HTML/CSS/JavaScript",
+                            "Ux/Ui Design",
+                            "Interpersonal Communication",
+                            "Software Development"],
+            "image" : [false],
+            "Links": [false]
+        },
+        {
+            "Project_Name" : "Links",
+            "Project_info" : [""],
+            "image" : [false],
+            "Links": [true, "Download/Thomas,AidenResume_3.0.00.pdf", "Resume", "https://www.linkedin.com/in/aiden-thomas-93002624a/", "Linkedin", "mailto:on@starprograms.dev", "E-Mail: on@starprograms.dev"]
+        },
+        {
+            "Project_Name" : "Pervious Sites",
+            "Project_info" : [""],
+            "image" : [false],
+            "Links": [true, "https://aiden.starprograms.dev", "First Website: aiden.starprograms.dev", "https://cli.starprograms.dev", "Second Website: cli.starprograms.dev"]
         }
     ]
 }
