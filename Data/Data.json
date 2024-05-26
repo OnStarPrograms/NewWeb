@@ -31,9 +31,12 @@
             {
                 "Data_Text" : [""],
                 "image" : [true, "center", "Images/$SCN0920.Id_360.webp",
+                                            "Images/DSC_3209-2.jpg",
                                             "Images/$SCN1385-2.webp",
+                                            "Images/DSC_3186-2.jpg",
                                             "Images/$SCN1602-2.webp",
-                                            "Images/DSCN1599-2.webp"],
+                                            "Images/DSCN1599-2.webp",
+                                            "Images/DSC_3212.jpg"],
                 "Projects" : false,
                 "Project_num" : [0],
                 "Links": [false]
