@@ -136,6 +136,14 @@
             "Project_info" : [""],
             "image" : [false],
             "Links": [true, "https://aiden.starprograms.dev", "First Website: aiden.starprograms.dev", "https://cli.starprograms.dev", "Second Website: cli.starprograms.dev"]
+        },
+        {
+            "Project_Name" : "Peer Mentor (2024) UF",
+            "Project_info" : ["Working in the University of Florida as a Peer Mentor for Programming 2 during the summer semester.",
+                             "Became a Peer Mentor in my second semester of 1st year at UF",
+                             "Duties include: Teaching Students, Grading, and Leading Discussions on C++ and Algorithms"],
+            "image" : [true, "right", "Images/374693857_683736827120440_7201324416461427492_n.jpg"],
+            "Links": [false]
         }
     ]
 }
