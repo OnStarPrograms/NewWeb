@@ -20,7 +20,7 @@
                 "Data_Text" : [""],
                 "image" : [false],
                 "Projects" : true,
-                "Project_num" : [1],
+                "Project_num" : [1, 8],
                 "Links": [false]
             }
         },
