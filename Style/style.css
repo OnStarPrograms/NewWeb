@@ -22,6 +22,19 @@ body
     border-radius: 25%;
 }
 
+.Header__
+{
+    font-size: 3em;
+    padding-left: 2%; 
+    position: fixed; 
+    width:100%; 
+    top:0;
+    left: 0;
+    padding-top:1%; 
+    padding-bottom:20px;
+    z-index: 1;
+}
+
 #AntiDark
 {
     z-index: -1;
@@ -139,6 +152,7 @@ h2
     position: fixed;
     right: 19%;
     top:1%;
+    z-index: 2;
 }
 #BackLine_
 {
@@ -194,6 +208,27 @@ h2
 }
 @media screen and (max-width: 800px)
 {
+    #NextLine_, #BackLine_
+    {
+        transition: all 1s;
+        transition: all 1s;
+        margin-top: 0%;
+        font-size: 3em;
+        display: inline-flex;
+        color:black;
+        padding-left: 1.25%;
+        padding-right: 1.25%;
+        padding: auto;
+        border-radius: 50%;
+        position: fixed;
+        right: 5%;
+        top:0;
+        z-index: 2;
+    }
+    #BackLine_
+    {
+        right:10%;
+    }
     h3 , h1 , h2, #NextLine, #BackLine, #SeeMore
     {
         font-size: 2em;
@@ -219,6 +254,16 @@ h2
         background-color: white;
         color:black;
         border-radius: 25%;
+    }
+    .Header__
+    {
+        font-size: 2em;
+        padding-left: 25px; 
+        position: fixed; 
+        width:100%; 
+        top:0; 
+        padding-top:20px; 
+        padding-bottom:20px;
     }
 }
 
@@ -260,7 +305,7 @@ h2
         border-radius: 50%;
         position: fixed;
         right: 5%;
-        top:1%;
+        top:0;
     }
     #BackLine_
     {
