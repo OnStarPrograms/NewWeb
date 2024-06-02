@@ -81,7 +81,7 @@ function Fetched()
     }
     else
     {
-        document.getElementById("Center").innerHTML += "<p style = 'position: fixed; top: 0%; padding-top: 0; font-size:1em; left: 0.5%;'>I'm</p><h3 id = 'color_"+Math.abs(track2)+"' style = 'font-size: 3em; margin-left: 2%; position: fixed; width:100%; top:0; padding-top:1%; padding-bottom:20px;' onclick = 'TogglePage();' class='noselect navBar'>"+jsonner.Information[Math.abs(track2)].head[0]+"</h3>";
+        document.getElementById("Center").innerHTML += "<p style = 'position: fixed; top: 0%; padding-top: 0; font-size:1em; left: 0.5%; z-index:1;'>I'm</p><h3 id = 'color_"+Math.abs(track2)+"' style = 'font-size: 3em; padding-left: 15px; position: fixed; width:100%; top:0; padding-top:1%; padding-bottom:20px;' onclick = 'TogglePage();' class='noselect navBar'>"+jsonner.Information[Math.abs(track2)].head[0]+"</h3>";
         document.getElementById("Center").innerHTML += "<br class = 'breakline'>"
         loadData();
     }
