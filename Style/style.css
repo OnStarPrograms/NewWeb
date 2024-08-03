@@ -7,19 +7,20 @@ body
 {
     transition: all 1s;
     position: fixed;
-    width:100px;
-    height: 100px;
     bottom: 0;
-    right: 0;
+    right: 0px;
     opacity: 100%;
-    font-size: 4em;
-    margin-right: 5%;
+    font-size: 2em;
+    margin-right: 15px;
     margin-top: 2%;
-    padding-top: 25px;
+    padding-top:5px;
+    padding-bottom:5px;
+    padding-left:5px;
+    padding-right:5px;
     text-align: center;
-    background-color: white;
+
     color:black;
-    border-radius: 25%;
+   
 }
 
 .Header__
@@ -33,6 +34,7 @@ body
     padding-top:1%; 
     padding-bottom:20px;
     z-index: 1;
+    margin-top:0;
 }
 
 #AntiDark
@@ -61,14 +63,23 @@ body
 
 h3 , h1 , h2
 {
-    font-size: 7em;
+    font-size: 4em;
     padding-top: 0%;
-    margin-top: 0%;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    
+    font-family: "Press Start 2P", 'Arial Narrow', Arial, sans-serif ;
 }
+
+h3
+{
+    font-size: 3em;
+    padding-top: 0%;
+    
+    font-family: "Press Start 2P", 'Arial Narrow', Arial, sans-serif ;
+}
+
 h1 , h2
 {
-    font-size: 10em;
+    font-size: 5em;
     margin-left: 7%;
     margin-top: 2%;
     display: inline-flex;
@@ -80,15 +91,17 @@ h2
 }
 #UnderScore
 {
-    margin-left: 2%;
+    margin-left: 0;
 }
 
 #SeeMore, #NextLine, #BackLine, #NextLine_, #BackLine_, p, .Link
 {
     display: inline-block;
-    font-size: 4em;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 3em;
+    font-family: "Press Start 2P", 'Arial Narrow', Arial, sans-serif;
 }
+
+
 
 .Link
 {
@@ -98,7 +111,7 @@ h2
 
 #Text
 {
-    font-size: 2em;
+    font-size: 1em;
     margin-left: 10%;
     margin-right: 15%;
     opacity: 0;
@@ -121,34 +134,38 @@ h2
     /* background-color: white; */
     color:black;
     padding-left: 2%;
+    
     padding-right: 2%;
 }
 
 #NextLine, #BackLine
 {
     transition: all 1s;
-    margin-top: 0%;
-    font-size: 6em;
+    margin-top: 20px;
+    font-size: 3em;
     /* background-color: white; */
     color:black;
-    padding-left: 2%;
-    padding-right: 2%;
-    padding: auto;
-    border-radius: 50%;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 0px;
+    margin-bottom:0px;
+    height: 60px;
+    padding-top: 10px;
+    /* border-radius: 50%; */
 }
 
 #NextLine_, #BackLine_
 {
     transition: all 1s;
     transition: all 1s;
-    margin-top: 0%;
-    font-size: 4em;
+    margin-top: 5px;
+    font-size: 3em;
     display: inline-flex;
     color:black;
     padding-left: 1.25%;
     padding-right: 1.25%;
-    padding: auto;
-    border-radius: 50%;
+    padding-bottom: 0px;
+    /*border-radius: 50%;*/
     position: fixed;
     right: 19%;
     top:1%;
@@ -176,7 +193,7 @@ h2
 
 #BackLine
 {
-    margin-left:23%;
+    margin-left:13%;
 }
 
 .breakline
@@ -213,13 +230,12 @@ h2
         transition: all 1s;
         transition: all 1s;
         margin-top: 0%;
+        margin-bottom:0%;
         font-size: 3em;
         display: inline-flex;
         color:black;
         padding-left: 1.25%;
         padding-right: 1.25%;
-        padding: auto;
-        border-radius: 50%;
         position: fixed;
         right: 5%;
         top:0;
@@ -241,9 +257,9 @@ h2
     {
         transition: all 1s;
         position: fixed;
-        width:50px;
-        height: 50px;
-        bottom: 0;
+        width:15px;
+        height: 15px;
+        top: 0;
         right: 0;
         opacity: 100%;
         font-size: 2em;
@@ -259,9 +275,9 @@ h2
     {
         font-size: 2em;
         padding-left: 25px; 
-        position: fixed; 
+        position: absolute; 
         width:100%; 
-        top:0; 
+        top:0px; 
         padding-top:20px; 
         padding-bottom:20px;
     }

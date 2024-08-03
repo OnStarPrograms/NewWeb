@@ -14,13 +14,13 @@ body.dark > #AntiDark
     opacity: 100%;
 }
 
-body.dark #NextLine_, body.dark #BackLine_,body.dark #SeeMore, body.dark #NextLine, body.dark #BackLine
+body.dark #NextLine_, body.dark #BackLine_,body.dark #SeeMore, body.dark #NextLine, body.dark #BackLine, body.dark #Dark, body.dark #AntiDark
 {
     transition: all 1s;
     color: white;
 }
 
-body.dark #NextLine_:hover, body.dark #BackLine_:hover, body.dark #SeeMore:hover, body.dark #NextLine:hover, body.dark #BackLine:hover
+body.dark #NextLine_:hover, body.dark #BackLine_:hover, body.dark #SeeMore:hover, body.dark #NextLine:hover, body.dark #BackLine:hover, body.dark #Dark:hover, body.dark #AntiDark:hover
 {
     transition: all 1s;
     color: black;

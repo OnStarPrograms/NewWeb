@@ -60,13 +60,10 @@
             "head" : ["Aiden Thomas"],
             "Data" : 
             {
-                "Data_Text" : ["A student at UF, who focuses on helping teachers, and seeks out enjoyment in machine manipulations. ",
-                                "helps to support the Satellite High Schools Fine Arts program and the community through acts of philanthropy. ",
-                                "Interested in innovation within Software Development; Communication; Teamwork; and Cyber-S.I.T. ",
-                                "He has received multiple industry certifications in software development."],
-                "image" : [true, "right", "Images/Aiden.jpg"],
+                "Data_Text" : [""],
+                "image" : false,
                 "Projects" : true,
-                "Project_num" : [5, 6, 7],
+                "Project_num" : [9, 5, 6, 7],
                 "Links": [false]
             }
         }
@@ -144,6 +141,16 @@
                              "Duties include: Teaching Students, Grading, and Leading Discussions on C++ and Algorithms"],
             "image" : [true, "right", "Images/374693857_683736827120440_7201324416461427492_n.jpg"],
             "Links": [false]
-        }
+        },
+        {
+            "Project_Name" : "Bio",
+            "Data_Text" : ["A student at UF, who focuses on helping teachers, and seeks out enjoyment in machine manipulations.","",
+                                "helps to support the Satellite High Schools Fine Arts program and the community through acts of philanthropy. ",
+                                "Interested in innovation within Software Development; Communication; Teamwork; and Cyber-S.I.T. ",
+                                "He has received multiple industry certifications in software development."],
+             "image" : [true, "right", "Images/Aiden.jpg"],
+            "Links": [false]
+        },
+        
     ]
 }

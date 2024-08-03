@@ -81,7 +81,7 @@ function Fetched()
     }
     else
     {
-        document.getElementById("Center").innerHTML += "<p style = 'position: fixed; top: 0%; padding-top: 0; font-size:1em; left: 0.5%; z-index:2;'>I'm</p><h3 id = 'color_"+Math.abs(track2)+"'  onclick = 'TogglePage();' class='noselect navBar Header__'>"+jsonner.Information[Math.abs(track2)].head[0]+"</h3>";
+        document.getElementById("Center").innerHTML += "<h3 id = 'color_"+Math.abs(track2)+"'  onclick = 'TogglePage();' class='noselect navBar Header__'>"+jsonner.Information[Math.abs(track2)].head[0]+"_</h3>";
         document.getElementById("Center").innerHTML += "<br class = 'breakline'>"
         loadData();
     }
