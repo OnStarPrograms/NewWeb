@@ -150,7 +150,7 @@
                                 "He has received multiple industry certifications in software development."],
              "image" : [true, "right", "Images/Aiden.jpg"],
             "Links": [false]
-        },
+        }
         
     ]
 }
