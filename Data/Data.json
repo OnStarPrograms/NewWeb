@@ -61,7 +61,7 @@
             "Data" : 
             {
                 "Data_Text" : [""],
-                "image" : false,
+                "image" : [false],
                 "Projects" : true,
                 "Project_num" : [9, 5, 6, 7],
                 "Links": [false]
