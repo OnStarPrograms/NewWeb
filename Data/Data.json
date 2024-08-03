@@ -20,7 +20,7 @@
                 "Data_Text" : [""],
                 "image" : [false],
                 "Projects" : true,
-                "Project_num" : [8, 1],
+                "Project_num" : [8, 10, 1],
                 "Links": [false]
             }
         },
@@ -149,6 +149,12 @@
                                 "Interested in innovation within Software Development; Communication; Teamwork; and Cyber-S.I.T. ",
                                 "He has received multiple industry certifications in software development."],
              "image" : [true, "right", "Images/Aiden.jpg"],
+            "Links": [false]
+        },
+        {
+            "Project_Name" : "",
+            "Project_info" : [""],
+            "image" : [false],
             "Links": [false]
         }
         
