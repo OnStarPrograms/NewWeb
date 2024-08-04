@@ -102,7 +102,7 @@ function load_images(imageList) {
         {
             for (var i = 2; i < imageList.length; i++)
             {
-                document.getElementById("Text").innerHTML += '<img id = "Image" style = "float: '+imageList[1]+'; width: 25%" src = "'+imageList[i]+'" alt = "MaxWell">';
+                document.getElementById("Text").innerHTML += '<img id = "Image" style = "float: '+imageList[1]+'; width: 25%; margin-top: -50px;" src = "'+imageList[i]+'" alt = "MaxWell">';
             }
         }
     }
