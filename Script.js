@@ -77,7 +77,7 @@ function Fetched()
     {
         document.getElementById("Center").innerHTML += "<h3>I'm</h3><h1>></h1>";
         document.getElementById("Center").innerHTML += "<h2 id = 'color_"+Math.abs(track2)+"' onclick = 'TogglePage();' class='noselect'>"+jsonner.Information[Math.abs(track2)].head[0]+"</h2>";
-        document.getElementById("Center").innerHTML += "<h2 id = 'UnderScore'>_</h2>";
+        document.getElementById("Center").innerHTML += "<h2 id = 'UnderScore' class='noselect'>_</h2>";
     }
     else
     {

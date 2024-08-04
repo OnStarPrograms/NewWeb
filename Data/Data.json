@@ -154,13 +154,13 @@
         {
             "Project_Name" : "",
             "Project_info" : [""],
-            "image" : [true, "left; height: auto; width:auto;", "Images/DSC_3209-2.jpg"],
+            "image" : [true, "left; height: 25%; width:auto;", "Images/DSC_3209-2.jpg"],
             "Links": [false]
         },
         {
             "Project_Name" : "",
             "Project_info" : [""],
-            "image" : [true, "left;  height: auto; width:auto;", "Images/DSC_3186-2.jpg"],
+            "image" : [true, "left;  height: 40%; width:auto;", "Images/DSC_3186-2.jpg"],
             "Links": [false]
         },
         {
