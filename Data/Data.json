@@ -154,7 +154,7 @@
         {
             "Project_Name" : "",
             "Project_info" : [""],
-            "image" : [true, "right; height: auto; width:auto;", "Images/DSC_3209-2.jpg"],
+            "image" : [true, "left; height: auto; width:auto;", "Images/DSC_3209-2.jpg"],
             "Links": [false]
         },
         {

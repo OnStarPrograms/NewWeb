@@ -81,7 +81,7 @@ function Fetched()
     }
     else
     {
-        document.getElementById("Center").innerHTML += "<h3 id = 'color_"+Math.abs(track2)+"'  onclick = 'TogglePage();' class='noselect navBar Header__'>"+jsonner.Information[Math.abs(track2)].head[0]+"_</h3>";
+        document.getElementById("Center").innerHTML += "<h3 id = 'color_"+Math.abs(track2)+"'  onclick = 'TogglePage();' class='noselect navBar Header__'>"+jsonner.Information[Math.abs(track2)].head[0]+"<span id = 'UnderScore'>_</span></h3>";
         document.getElementById("Center").innerHTML += "<br class = 'breakline'>"
         loadData();
     }

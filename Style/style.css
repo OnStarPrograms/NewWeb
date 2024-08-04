@@ -92,9 +92,20 @@ h2
     margin-left: 2%;
     padding-right: 0%;
 }
+@keyframes Blink {
+  0%   {opacity: 0;}
+  100% {opacity: 1;}
+}
 #UnderScore
 {
     margin-left: 0;
+    color:black;
+    animation-name: Blink;
+    animation-duration: .7s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+    animation-direction: alternate;
+    
 }
 
 #SeeMore, #NextLine, #BackLine, #NextLine_, #BackLine_, p, .Link

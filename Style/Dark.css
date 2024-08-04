@@ -40,6 +40,12 @@ body.dark .navBar
     /* background-color: black; */
     background-color: #DDDDCC;
 }
+
+body.dark #UnderScore
+{
+    color:white;
+}
+
 body.Visible #Text
 {
     opacity: 100%;
