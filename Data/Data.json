@@ -144,7 +144,7 @@
         },
         {
             "Project_Name" : "Bio",
-            "Project_info" : ["A student at UF, who focuses on helping teachers, and seeks out enjoyment in machine manipulations.","",
+            "Project_info" : ["A student at UF, who focuses on helping teachers, and seeks out enjoyment in machine manipulations.",
                                 "helps to support the Satellite High Schools Fine Arts program and the community through acts of philanthropy. ",
                                 "Interested in innovation within Software Development; Communication; Teamwork; and Cyber-S.I.T. ",
                                 "He has received multiple industry certifications in software development."],
@@ -153,7 +153,7 @@
         },
         {
             "Project_Name" : "⠀",
-            "Project_info" : [""],
+            "Project_info" : ["⠀"],
             "image" : [false],
             "Links": [false]
         }
