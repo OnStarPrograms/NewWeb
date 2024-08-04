@@ -148,6 +148,12 @@
         {
             "Project_Name" : "",
             "Project_info" : [""],
+            "image" : [false],
+            "Links": [false]
+        },
+        {
+            "Project_Name" : "",
+            "Project_info" : [""],
             "image" : [true, "right", "Images/DSC_3209-2.jpg"],
             "Links": [false]
         },
