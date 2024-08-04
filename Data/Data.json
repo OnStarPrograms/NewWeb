@@ -20,7 +20,7 @@
                 "Data_Text" : [""],
                 "image" : [false],
                 "Projects" : true,
-                "Project_num" : [8, 1],
+                "Project_num" : [8, 10, 1],
                 "Links": [false]
             }
         },
@@ -61,7 +61,7 @@
             "Data" : 
             {
                 "Data_Text" : [""],
-                "image" : false,
+                "image" : [false],
                 "Projects" : true,
                 "Project_num" : [9, 5, 6, 7],
                 "Links": [false]
@@ -144,11 +144,17 @@
         },
         {
             "Project_Name" : "Bio",
-            "Data_Text" : ["A student at UF, who focuses on helping teachers, and seeks out enjoyment in machine manipulations.","",
+            "Project_info" : ["A student at UF, who focuses on helping teachers, and seeks out enjoyment in machine manipulations.","",
                                 "helps to support the Satellite High Schools Fine Arts program and the community through acts of philanthropy. ",
                                 "Interested in innovation within Software Development; Communication; Teamwork; and Cyber-S.I.T. ",
                                 "He has received multiple industry certifications in software development."],
              "image" : [true, "right", "Images/Aiden.jpg"],
+            "Links": [false]
+        },
+        {
+            "Project_Name" : "",
+            "Project_info" : [""],
+            "image" : [false],
             "Links": [false]
         }
         
