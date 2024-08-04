@@ -153,7 +153,7 @@
         },
         {
             "Project_Name" : "",
-            "Project_info" : ["<br>"],
+            "Project_info" : [""],
             "image" : [false],
             "Links": [false]
         }
