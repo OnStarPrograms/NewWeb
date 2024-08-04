@@ -152,8 +152,8 @@
             "Links": [false]
         },
         {
-            "Project_Name" : "⠀",
-            "Project_info" : [".", ".", "."],
+            "Project_Name" : "",
+            "Project_info" : ["⠀"],
             "image" : [false],
             "Links": [false]
         }
