@@ -148,11 +148,11 @@
                                 "helps to support the Satellite High Schools Fine Arts program and the community through acts of philanthropy. ",
                                 "Interested in innovation within Software Development; Communication; Teamwork; and Cyber-S.I.T. ",
                                 "He has received multiple industry certifications in software development."],
-             "image" : [true, "right", "Images/Aiden.jpg"],
+             "image" : [false],
             "Links": [false]
         },
         {
-            "Project_Name" : "",
+            "Project_Name" : "⠀",
             "Project_info" : [""],
             "image" : [false],
             "Links": [false]
