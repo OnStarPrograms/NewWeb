@@ -171,7 +171,7 @@
         },
         {
             "Project_Name" : "",
-            "Project_info" : ["''",""],
+            "Project_info" : [""],
             "image" : [true, "left; width: 50%; height:auto", "Images/$SCN1602-2.webp"],
             "Links": [false]
         },
