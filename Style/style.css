@@ -12,7 +12,7 @@ body
     right: 0px;
     opacity: 100%;
     font-size: 2em;
-    margin-right: 15px;
+    margin-right: 30px;
     margin-top: 2%;
     padding-top:5px;
     padding-bottom:5px;
@@ -45,22 +45,24 @@ body
 
 }
 
-#color_1
+body.dark  #color_1
 {
     color: #249d0f;
 }
-#color_2
+body.dark  #color_2
 {
     color: #880F9D;
 }
-#color_3
+body.dark  #color_3
 {
     color: #E21D23;
 }
-#color_4
+body.dark  #color_4
 {
     color: #1DE2DC;
 }
+
+
 
 h3 , h1 , h2
 {
@@ -74,8 +76,8 @@ h3
 {
     font-size: 3em;
     padding-top: 0%;
-    margin-left: 20px;
-    margin-top: 100px;
+    margin-left: 25px;
+    margin-top: 200px;
     
     font-family: "Press Start 2P", 'Arial Narrow', Arial, sans-serif ;
 }
@@ -84,7 +86,7 @@ h1 , h2
 {
     font-size: 5em;
     margin-left: 7%;
-    margin-top: 80px;
+    margin-top: 50px;
     display: inline-flex;
 }
 h2
@@ -121,6 +123,11 @@ h2
 {
     font-size: 1em;
     display: block;
+    color: blue;
+}
+body.dark .Link
+{
+    color:cyan;
 }
 
 #Text

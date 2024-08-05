@@ -154,37 +154,37 @@
         {
             "Project_Name" : "",
             "Project_info" : [""],
-            "image" : [true, "left; height: 25%; width:auto;", "Images/DSC_3209-2.jpg"],
+            "image" : [true, "right; width: 50%; height:auto", "Images/DSC_3209-2.jpg"],
             "Links": [false]
         },
         {
             "Project_Name" : "",
             "Project_info" : [""],
-            "image" : [true, "left;  height: 40%; width:auto;", "Images/DSC_3186-2.jpg"],
+            "image" : [true, "left; width: 50%; height:auto", "Images/DSC_3186-2.jpg"],
             "Links": [false]
         },
         {
             "Project_Name" : "",
             "Project_info" : [""],
-            "image" : [true, "center;", "Images/$SCN1385-2.jpg"],
+            "image" : [true, "right; width: 50%; height:auto", "Images/$SCN1385-2.jpg"],
             "Links": [false]
         },
         {
             "Project_Name" : "",
             "Project_info" : [""],
-            "image" : [true, "right;  height: auto; width:auto;", "Images/$SCN1602-2.webp"],
+            "image" : [true, "left; width: 50%; height:auto", "Images/$SCN1602-2.webp"],
             "Links": [false]
         },
         {
             "Project_Name" : "",
             "Project_info" : [""],
-            "image" : [true, "left;  height: auto; width:auto;", "Images/DSC_3161(edit).JPG"],
+            "image" : [true, "right; width: 50%; height:auto", "Images/DSC_3161(edit).JPG"],
             "Links": [false]
         },
         {
             "Project_Name" : "",
             "Project_info" : [""],
-            "image" : [true, "center", "Images/DSC_3197-2.jpg"],
+            "image" : [true, "left; width: 50%; height:auto", "Images/DSC_3197-2.jpg"],
             "Links": [false]
         }
         

@@ -75,7 +75,7 @@ function Fetched()
     document.getElementById("Center").innerHTML = "";
     if (MChoice == 1)
     {
-        document.getElementById("Center").innerHTML += "<h3>I'm</h3><h1>></h1>";
+        document.getElementById("Center").innerHTML += "<h3 style='margin-left:105px;'>I'm</h3><h1>></h1>";
         document.getElementById("Center").innerHTML += "<h2 id = 'color_"+Math.abs(track2)+"' onclick = 'TogglePage();' class='noselect'>"+jsonner.Information[Math.abs(track2)].head[0]+"</h2>";
         document.getElementById("Center").innerHTML += "<h2 id = 'UnderScore' class='noselect'>_</h2>";
     }
@@ -102,7 +102,7 @@ function load_images(imageList) {
         {
             for (var i = 2; i < imageList.length; i++)
             {
-                document.getElementById("Text").innerHTML += '<img id = "Image" style = "float: '+imageList[1]+'; width: 25%; margin-top: -50px;" src = "'+imageList[i]+'" alt = "MaxWell">';
+                document.getElementById("Text").innerHTML += '<img id = "Image" style = "width: 25%;    float: '+imageList[1]+'; margin-top: -50px;" src = "'+imageList[i]+'" alt = "MaxWell">';
             }
         }
     }
