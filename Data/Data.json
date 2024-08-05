@@ -153,37 +153,37 @@
         },
         {
             "Project_Name" : "",
-            "Project_info" : [""],
+            "Project_info" : [" "],
             "image" : [true, "right; width: 50%; height:auto", "Images/DSC_3209-2.jpg"],
             "Links": [false]
         },
         {
             "Project_Name" : "",
-            "Project_info" : [""],
+            "Project_info" : [" "],
             "image" : [true, "left; width: 50%; height:auto", "Images/DSC_3186-2.jpg"],
             "Links": [false]
         },
         {
             "Project_Name" : "",
-            "Project_info" : [""],
+            "Project_info" : [" "],
             "image" : [true, "right; width: 50%; height:auto", "Images/$SCN1385-2.jpg"],
             "Links": [false]
         },
         {
             "Project_Name" : "",
-            "Project_info" : [""],
+            "Project_info" : [" "],
             "image" : [true, "left; width: 50%; height:auto", "Images/$SCN1602-2.webp"],
             "Links": [false]
         },
         {
             "Project_Name" : "",
-            "Project_info" : [""],
+            "Project_info" : [" "],
             "image" : [true, "right; width: 50%; height:auto", "Images/DSC_3161(edit).JPG"],
             "Links": [false]
         },
         {
             "Project_Name" : "",
-            "Project_info" : [""],
+            "Project_info" : [" "],
             "image" : [true, "left; width: 50%; height:auto", "Images/DSC_3197-2.jpg"],
             "Links": [false]
         }
