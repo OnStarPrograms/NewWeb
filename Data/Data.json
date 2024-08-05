@@ -153,13 +153,13 @@
         },
         {
             "Project_Name" : "",
-            "Project_info" : [""],
+            "Project_info" : ["'Lillians': A small town bar based in gainesville where music used to roam free, only to fall to ruin amid the bustle of the world around it.","Image Taken on 25mm film with a Cannon T-50"],
             "image" : [true, "right; width: 50%; height:auto", "Images/DSC_3209-2.jpg"],
             "Links": [false]
         },
         {
             "Project_Name" : "",
-            "Project_info" : [""],
+            "Project_info" : ["'Theater': once a lavish auditorium holding many plays and musicals, this building went into bankrupcy in the 21st century, only for the gainesville community to start repairs on this historic landmark", "Taken on a canon rebel digital camera"],
             "image" : [true, "left; width: 50%; height:auto", "Images/DSC_3186-2.jpg"],
             "Links": [false]
         },
@@ -171,7 +171,7 @@
         },
         {
             "Project_Name" : "",
-            "Project_info" : [""],
+            "Project_info" : ["''",""],
             "image" : [true, "left; width: 50%; height:auto", "Images/$SCN1602-2.webp"],
             "Links": [false]
         },
