@@ -98,8 +98,7 @@
         },
         {
             "Project_Name" : "G-mail Remote Code Execution",
-            "Project_info" : ["<ul><li>Python</li><li>Numpy</li><li>API</li><li>IMAP</li><li>Excel</li></ul>","G-mail Remote Code Execution","Gives user access to the local host via any e-mail client with less than 3 minute lag time","Exhibited a deep understanding of local remote code execution through the use of windows terminal commands,
-powershell, and python, adding perseverance from windows accessibility features"],
+            "Project_info" : ["<ul><li>Python</li><li>Numpy</li><li>API</li><li>IMAP</li><li>Excel</li></ul>","G-mail Remote Code Execution","Gives user access to the local host via any e-mail client with less than 3 minute lag time","Exhibited a deep understanding of local remote code execution through the use of windows terminal commands, powershell, and python, adding perseverance from windows accessibility features"],
             "image" : [false, "center", "Images/Gmail.webp"],
             "Links": [true, "Download/MailAutomater.zip", "Direct Download"]
         },
