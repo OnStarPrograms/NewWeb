@@ -237,11 +237,11 @@ body.dark .Link
 {
     h3 , h1 , h2, #NextLine, #BackLine, #SeeMore
     {
-        font-size: 4em;
+        font-size: 2em;
     }
     h1 , h2
     {
-        font-size: 8em;
+        font-size: 3em;
     }
 }
 @media screen and (max-width: 800px)
@@ -252,14 +252,14 @@ body.dark .Link
         transition: all 1s;
         margin-top: 0%;
         margin-bottom:0%;
-        font-size: 3em;
+        font-size: 2em;
         display: inline-flex;
         color:black;
-        padding-left: 1.25%;
-        padding-right: 1.25%;
+        padding-left: 1%;
+        padding-right: 1%;
         position: fixed;
-        right: 5%;
-        top:0;
+        right: 2%;
+        top:5%;
         z-index: 2;
     }
     #BackLine_
@@ -272,104 +272,36 @@ body.dark .Link
     }
     h1 , h2
     {
-        font-size: 4em;
+        font-size: 3em;
     }
     #Dark, #AntiDark
     {
         transition: all 1s;
         position: fixed;
-        width:15px;
-        height: 15px;
-        top: 0;
+        bottom: 0;
         right: 0;
+        width: 23px;
+        overflow: hidden;
         opacity: 100%;
         font-size: 2em;
 
         margin-top: 2%;
-        padding-top: 25px;
         text-align: center;
-        background-color: white;
         color:black;
-        border-radius: 25%;
+        
     }
     .Header__
     {
         font-size: 2em;
         padding-left: 25px; 
-        position: absolute; 
         width:100%; 
         top:0px; 
         padding-top:20px; 
         padding-bottom:20px;
     }
-}
-
-@media screen and (max-width: 500px)
-{
-    h3 , h1 , h2, #NextLine, #BackLine, #SeeMore
-    {
-        font-size: 1rem;
-    }
-    h1 , h2
-    {
-        font-size: 1em;
-    }
-
-    #NextLine, #BackLine
-    {
-        transition: all 1s;
-        margin-top: 0%;
-        font-size: 1em;
-        /* background-color: white; */
-        color:black;
-        padding-left: 2%;
-        padding-right: 2%;
-        padding: auto;
-        border-radius: 50%;
-    }
-
-    #NextLine_, #BackLine_
-    {
-        transition: all 1s;
-        transition: all 1s;
-        margin-top: 0%;
-        font-size: 3em;
-        display: inline-flex;
-        color:black;
-        padding-left: 1.25%;
-        padding-right: 1.25%;
-        padding: auto;
-        border-radius: 50%;
-        position: fixed;
-        right: 5%;
-        top:0;
-    }
-    #BackLine_
-    {
-        right:15%;
-    }
-    .Link
-    {
-        font-size: 1em;
-        display: block;
-    }
-
-    #Text
-    {
-        
-        font-size: 1em;
-        margin-left: 10%;
-        margin-right: 15%;
-        opacity: 0;
-        padding-right: 5px;
-        padding-left: 5px;
-    }
-
-    #Image
-    {
-        width: 100%; 
-        height: auto;
-        padding-left: 5px;
-        padding-right: 5px;
+    h3 {
+      margin-top: 125px;
     }
 }
+
+

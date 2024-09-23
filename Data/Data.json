@@ -71,7 +71,7 @@
             "Project_info" : ["By utilizing the SFML Library this minesweeper clone contains all the functionality of minesweeper while utilizing time saving systems.",
                                 "This project is an example of how object oriented programming can both increase a programs productivity and reduce its current sizing. ",
                                 "Through the implementation of the Breadth first searching algorithms this program is capable of changing multiple bomb tiles in a cascading pattern extremely quickly."],
-            "image" : [true, "center", "Images/MineSweeper.webp"],
+            "image" : [false, "center", "Images/MineSweeper.webp"],
             "Links": [true, "https://github.com/OnStarPrograms/MineSweeper", "Github"]
         },
         {
@@ -79,30 +79,28 @@
             "Project_info" : ["Worked in Satellite High School as a programming tutor and volunteer TA for the 2023 Year.",
                              "Some duties pertaining to being a volunteer TA are;",
                              "Tutoring, scheduling, and grading coursework."],
-            "image" : [true, "right", "Images/SatelliteHigh.jpg"],
+            "image" : [false, "right", "Images/SatelliteHigh.jpg"],
             "Links": [false]
         },
         {
-            "Project_Name" : "Direct Image Manipulation",
-            "Project_info" : ["Using the Rust programming language, this project reads multiple .TGA files, saves image data, in regard to the header, and preforms a series of industry standard image manipulations.",
-                                "This project was created to provide a example of how industry standard data manipulation algorithms can be integrated easily in many current applications and languages."],
-            "image" : [true, "center", "Images/TGA.webp"],
-            "Links": [true, "https://github.com/OnStarPrograms/TGA_Manipulator", "Github"]
+            "Project_Name" : "Static Chess Engine",
+            "Project_info" : ["<ul><li>C#</li><li>Chess</li><li>Windows API</li><li>Statistics</li></ul>",
+                                "Assembled static evaluation chess engine within 500 lines","Utilized possible moves with predicted enemy moves to run risk analysis algorithms", "Utilized possible moves with predicted enemy moves to run risk analysis algorithms"],
+            "image" : [false, "center", "Images/TGA.webp"],
+            "Links": [false, "https://github.com/OnStarPrograms/TGA_Manipulator", "Github"]
         },
         {
-            "Project_Name" : "3Ds Socket Programming in C",
-            "Project_info" : ["This project was designed to allow a Handheld 3rd Party C Based Digital Graphics System, 3DS For short, to communicate data through the TCP port into a receiver computer and leverage this real time data to control important system accessibility functions without the usage of other system peripherals.",
-                                "This software was originally developed to allow a user to control their system and circumvent Anticheat software to play Valorant on a 3Ds",
-                                "<span style = 'font-style: italic;'>I did not circumvent riot vanguard to cheat</span>"],
-            "image" : [true, "center", "Images/valorant.webp"],
+            "Project_Name" : "Windows Exploitation w/ Networking",
+            "Project_info" : ["<ul><li>C</li><li>C++</li><li>Python</li><li>Windows API</li><li>Sockets</li><li>TCP</li><li>Arduino</li></ul>", "Windows Exploitation w/ Networking","Developed using TCP connection with data compression to reduce overhead by 300 bytes",
+                                "Bypasses kernel level anti-cheat within Valorant 100% of the time"],
+            "image" : [false, "center", "Images/valorant.webp"],
             "Links": [true, "https://github.com/OnStarPrograms/3dsSocket", "Github"]
         },
         {
-            "Project_Name" : "Mail Automation with Gmail and python",
-            "Project_info" : ["By Integrating the G-mail API into python with a database link, this project allows for a Pseudo-Server to be run within the IMAP/POP server system.",
-                                "Which allows for a user to have access to the local computer that happens to be connected to the affected E-mail account.",
-                                "This program was designed and developed to provide an example of an easy E-mail based automation tool."],
-            "image" : [true, "center", "Images/Gmail.webp"],
+            "Project_Name" : "G-mail Remote Code Execution",
+            "Project_info" : ["<ul><li>Python</li><li>Numpy</li><li>API</li><li>IMAP</li><li>Excel</li></ul>","G-mail Remote Code Execution","Gives user access to the local host via any e-mail client with less than 3 minute lag time","Exhibited a deep understanding of local remote code execution through the use of windows terminal commands,
+powershell, and python, adding perseverance from windows accessibility features"],
+            "image" : [false, "center", "Images/Gmail.webp"],
             "Links": [true, "Download/MailAutomater.zip", "Direct Download"]
         },
         {
@@ -129,10 +127,10 @@
             "Links": [true, "https://aiden.starprograms.dev", "First Website: aiden.starprograms.dev", "https://cli.starprograms.dev", "Second Website: cli.starprograms.dev"]
         },
         {
-            "Project_Name" : "Peer Mentor (2024) UF",
-            "Project_info" : ["Working in the University of Florida as a Peer Mentor for Programming 2 during the summer semester.",
-                             "Became a Peer Mentor in my second semester of 1st year at UF",
-                             "Duties include: Teaching Students, Grading, and Leading Discussions on C++ and Algorithms"],
+            "Project_Name" : "Undergraduate Teaching Assistant (2024) UF",
+            "Project_info" : ["Fostered upcoming computer engineering students with deep understanding of data structures.",
+                             "Demonstrated exceptional mastery of course material through in-depth application with 20% faster debugging",
+                             "Led engaging discussions on core programming concepts with 98% attendance"],
             "image" : [true, "right", "Images/374693857_683736827120440_7201324416461427492_n.jpg"],
             "Links": [false]
         },
