@@ -386,6 +386,7 @@ body.dark .Link
     h3 {
       margin-top: 125px;
     }
+
 }
 @media screen and (max-width: 500px)
 {
@@ -457,4 +458,8 @@ body.dark .Link
     #ProgBody {
       font-size: .7em;
     }
+    .Link {
+      font-size: .7em;
+    }
+
 }
