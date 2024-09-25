@@ -289,6 +289,7 @@ body.dark .Link
         text-align: center;
         color:black;
         
+
     }
     .Header__
     {
@@ -304,4 +305,68 @@ body.dark .Link
     }
 }
 
+@media screen and (max-width: 650px)
+{
+    #NextLine_, #BackLine_
+    {
+        transition: all 1s;
+        transition: all 1s;
+        margin-top: 0%;
+        margin-bottom:0%;
+        font-size: 2em;
+        display: inline-flex;
+        color:black;
+        padding-left: 1%;
+        padding-right: 1%;
+        position: fixed;
+        right: 2%;
+        top:2%;
+        z-index: 2;
+    }
+    #BackLine_
+    {
+        right:10%;
+    }
+    h3 , h1 , h2, #NextLine, #BackLine, #SeeMore
+    {
+        font-size: 1em;
+    }
+    h1 , h2
+    {
+        font-size: 2em;
+    }
+    #Dark, #AntiDark
+    {
+        transition: all 1s;
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        width: 23px;
+        overflow: hidden;
+        opacity: 100%;
+        font-size: 2em;
+        margin-right: 5px;
+        margin-bottom: 5px;
+        margin-top: 2%;
+        text-align: center;
+        color:black;
+        
 
+    }
+    #NextLine, #BackLine
+    {
+      height: 2em;
+    }
+    .Header__
+    {
+        font-size: 1em;
+        padding-left: 25px; 
+        width:100%; 
+        top:0px; 
+        padding-top:20px; 
+        padding-bottom:20px;
+    }
+    h3 {
+      margin-top: 125px;
+    }
+}
