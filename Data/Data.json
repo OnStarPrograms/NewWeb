@@ -38,14 +38,13 @@
         },
 
         {
-            "head" : ["A Designer"],
+            "head" : ["A Blogger"],
             "Data" : 
             {
                 "Data_Text" : [""],
-                "image" : [true, "center", "Images/Aiden_Thomas_A4_3.webp",
-                                        "Images/IMG_2995.webp"],
-                "Projects" : false,
-                "Project_num" : [0],
+                "image" : [false],
+                "Projects" : true,
+                "Project_num" : [17],
                 "Links": [false]
             }
         },
@@ -183,7 +182,13 @@
             "Project_info" : [" "],
             "image" : [true, "left; width: 50%; height:auto", "Images/DSC_3197-2.jpg"],
             "Links": [false]
+        },
+        {
+            "Project_Name" : "Interpreting C with tree based memory",
+            "Project_info" : ["<ul><li>C</li><li>C++</li><li>Interpreters</li><li>Data Structures</li></ul>","Explanations on interpreting C, which we call \"LittleC\"","Written March 14",""],
+            "image" : [false],
+            "Links": [true, "#", "Links to external site"]
         }
-        
+                    
     ]
 }
