@@ -184,10 +184,10 @@
             "Links": [false]
         },
         {
-            "Project_Name" : "Interpreting C with tree based memory",
-            "Project_info" : ["<ul><li>C</li><li>C++</li><li>Interpreters</li><li>Data Structures</li></ul>","Explanations on interpreting C, which we call \"LittleC\"","Written March 14",""],
+            "Project_Name" : "NCAE 2025 and Me",
+            "Project_info" : ["Writeup on my experience working in NCAE 2025 blue team 2 for UF defending Web and Database.","Written March 12",""],
             "image" : [false],
-            "Links": [true, "#", "Links to external site"]
+            "Links": [true, "https://blog.starprograms.dev/NCAE2025/NCAE2025.html", "Blog Link"]
         }
                     
     ]
