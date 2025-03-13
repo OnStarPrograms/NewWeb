@@ -74,10 +74,10 @@
             "Links": [true, "https://github.com/OnStarPrograms/MineSweeper", "Github"]
         },
         {
-            "Project_Name" : "Tutor (2023)",
-            "Project_info" : ["Worked in Satellite High School as a programming tutor and volunteer TA for the 2023 Year.",
-                             "Some duties pertaining to being a volunteer TA are;",
-                             "Tutoring, scheduling, and grading coursework."],
+            "Project_Name" : "Computer Repair Technician (2024)",
+            "Project_info" : ["Volunteered as a computer repair technician for the 2024 Year.",
+                             "Some duties pertaining to being a volunteer are;",
+                             "Computer Repair, Diagnostics, Customer Service, and System Installations."],
             "image" : [false, "right", "Images/SatelliteHigh.jpg"],
             "Links": [false]
         },
@@ -137,7 +137,8 @@
             "Project_info" : ["A student at UF, who focuses on helping teachers, and seeks out enjoyment in machine manipulations.",
                                 "helps to support the Satellite High Schools Fine Arts program and the community through acts of philanthropy. ",
                                 "Interested in innovation within Software Development; Communication; Teamwork; and Cyber-S.I.T. ",
-                                "He has received multiple industry certifications in software development."],
+                                "He has received multiple industry certifications in software development.",
+                                "<iframe src=\"https://api.badgr.io/public/assertions/_hbZFbPsQK-3w7lDcYamWg?embedVersion=1&amp;embedWidth=330&amp;embedHeight=191&amp;identity__email=thomas.aiden%40ufl.edu\" style=\"width: 330px; height: 191px; border: 0px;\" title=\"Badge: 2025 Competitor\"></iframe><iframe src=\"https://api.badgr.io/public/assertions/l1k4GuNdToqVU0BN4t6G8A?embedVersion=1&amp;embedWidth=330&amp;embedHeight=191&amp;identity__email=thomas.aiden%40ufl.edu\" style=\"width: 330px; height: 191px; border: 0px;\" title=\"Badge: Most Valuable Teammate\"></iframe> "],
              "image" : [false],
             "Links": [false]
         },
