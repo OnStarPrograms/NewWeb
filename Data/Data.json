@@ -84,21 +84,21 @@
             "Links": [false]
         },
         {
-            "Project_Name" : "Giga-Nano <br>| Aug. 2024",
+            "Project_Name" : "Giga-Nano <br>Aug. 2024",
             "Project_info" : ["C, C++, System Hooks, Command Line",
                                 "Designed and implemented industry standard CLI text editor ”Nano” with 15+ ”Vi” based keybindings","Utilized native system calls and multi-threading to capture key input.", "Enhanced Stack based commands using Trees with separate stacks within nodes to allow for 15+ searchable buffers"],
             "image" : [false, "center", "Images/TGA.webp"],
             "Links": [false, "https://github.com/OnStarPrograms/TGA_Manipulator", "Github"]
         },
         {
-            "Project_Name" : "Windows Exploitation w/ Networking <br>| Nov. 2023",
+            "Project_Name" : "Windows Exploitation w/ Networking <br>Nov. 2023",
             "Project_info" : ["C, C++, Python, Windows API, Sockets, TCP, Arduino", "Routed 3DS network communication with real time access to the host computers peripherals","Developed using TCP connection with data compression to reduce overhead by 300 bytes",
                                 "Bypasses kernel level anti-cheat within Valorant 100% of the time"],
             "image" : [false, "center", "Images/valorant.webp"],
             "Links": [false, "https://github.com/OnStarPrograms/3dsSocket", "Github"]
         },
         {
-            "Project_Name" : "Static Chess Engine <br>| Jan. 2024",
+            "Project_Name" : "Static Chess Engine <br>Jan. 2024",
             "Project_info" : ["C#, Chess, Windows API, Statistics","Assembled static evaluation chess engine within 500 lines","Utilized possible moves with predicted enemy moves to run risk analysis algorithms","Derived from the Minmax AI algorithm with recursion"],
             "image" : [false, "center", "Images/Gmail.webp"],
             "Links": [false, "Download/MailAutomater.zip", "Direct Download"]
