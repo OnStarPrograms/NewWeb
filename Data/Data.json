@@ -66,12 +66,14 @@
     "Projects" :
     [
         {
-            "Project_Name" : "MineSweeper",
-            "Project_info" : ["By utilizing the SFML Library this minesweeper clone contains all the functionality of minesweeper while utilizing time saving systems.",
-                                "This project is an example of how object oriented programming can both increase a programs productivity and reduce its current sizing. ",
-                                "Through the implementation of the Breadth first searching algorithms this program is capable of changing multiple bomb tiles in a cascading pattern extremely quickly."],
+            "Project_Name" : "Seam Carving Algorithm | Nov. 2024",
+            "Project_info" : ["C, C++, File IO, Dynamic Programming",
+                                "Utilizing Kernel based energy weighing to dynamically take the best seam on an image",
+                                "Reduces an image to 40% original size while still containing proper image ratios",
+                                "Promotes an easy-to-use interface using only image input and cut down size to achieve optimal output"
+            ],
             "image" : [false, "center", "Images/MineSweeper.webp"],
-            "Links": [true, "https://github.com/OnStarPrograms/MineSweeper", "Github"]
+            "Links": [false, "https://github.com/OnStarPrograms/MineSweeper", "Github"]
         },
         {
             "Project_Name" : "Computer Repair Technician (2024)",
@@ -82,31 +84,31 @@
             "Links": [false]
         },
         {
-            "Project_Name" : "Static Chess Engine",
-            "Project_info" : ["<ul><li>C#</li><li>Chess</li><li>Windows API</li><li>Statistics</li></ul>",
-                                "Assembled static evaluation chess engine within 500 lines","Utilized possible moves with predicted enemy moves to run risk analysis algorithms", "Utilized possible moves with predicted enemy moves to run risk analysis algorithms"],
+            "Project_Name" : "Giga-Nano | Aug. 2024",
+            "Project_info" : ["C, C++, System Hooks, Command Line",
+                                "Designed and implemented industry standard CLI text editor ”Nano” with 15+ ”Vi” based keybindings","Utilized native system calls and multi-threading to capture key input.", "Enhanced Stack based commands using Trees with separate stacks within nodes to allow for 15+ searchable buffers"],
             "image" : [false, "center", "Images/TGA.webp"],
             "Links": [false, "https://github.com/OnStarPrograms/TGA_Manipulator", "Github"]
         },
         {
-            "Project_Name" : "Windows Exploitation w/ Networking",
-            "Project_info" : ["<ul><li>C</li><li>C++</li><li>Python</li><li>Windows API</li><li>Sockets</li><li>TCP</li><li>Arduino</li></ul>", "Windows Exploitation w/ Networking","Developed using TCP connection with data compression to reduce overhead by 300 bytes",
+            "Project_Name" : "Windows Exploitation w/ Networking | Nov. 2023",
+            "Project_info" : ["C, C++, Python, Windows API, Sockets, TCP, Arduino", "Routed 3DS network communication with real time access to the host computers peripherals","Developed using TCP connection with data compression to reduce overhead by 300 bytes",
                                 "Bypasses kernel level anti-cheat within Valorant 100% of the time"],
             "image" : [false, "center", "Images/valorant.webp"],
-            "Links": [true, "https://github.com/OnStarPrograms/3dsSocket", "Github"]
+            "Links": [false, "https://github.com/OnStarPrograms/3dsSocket", "Github"]
         },
         {
-            "Project_Name" : "G-mail Remote Code Execution",
-            "Project_info" : ["<ul><li>Python</li><li>Numpy</li><li>API</li><li>IMAP</li><li>Excel</li></ul>","G-mail Remote Code Execution","Gives user access to the local host via any e-mail client with less than 3 minute lag time","Exhibited a deep understanding of local remote code execution through the use of windows terminal commands, powershell, and python, adding perseverance from windows accessibility features"],
+            "Project_Name" : "Static Chess Engine | Jan. 2024",
+            "Project_info" : ["C#, Chess, Windows API, Statistics","Assembled static evaluation chess engine within 500 lines","Utilized possible moves with predicted enemy moves to run risk analysis algorithms","Derived from the Minmax AI algorithm with recursion"],
             "image" : [false, "center", "Images/Gmail.webp"],
-            "Links": [true, "Download/MailAutomater.zip", "Direct Download"]
+            "Links": [false, "Download/MailAutomater.zip", "Direct Download"]
         },
         {
             "Project_Name" : "Skills",
-            "Project_info" : ["Internet Research",
+            "Project_info" : ["Blue Team",
                             "Python /Java/C++/Rust",
                             "HTML/CSS/JavaScript",
-                            "Ux/Ui Design",
+                            "C",
                             "Interpersonal Communication",
                             "Software Development"],
             "image" : [false],
@@ -116,28 +118,27 @@
             "Project_Name" : "Links",
             "Project_info" : [""],
             "image" : [false],
-            "Links": [true, "Download/Thomas,AidenResume_3.0.00.pdf", "Resume", "https://www.linkedin.com/in/aiden-thomas-93002624a/", "Linkedin", "mailto:on@starprograms.dev", "E-Mail: on@starprograms.dev"]
+            "Links": [true, "Download/Thomas,AidenResume_3.0.00.pdf", "Resume", "https://www.linkedin.com/in/aiden-thomas-93002624a/", "Linkedin", "mailto:thomas.aiden@starprograms.dev", "E-Mail: thomas.aiden@starprograms.dev"]
         },
         {
             "Project_Name" : "Previous Sites",
             "Project_info" : [""],
             "image" : [false],
-            "Links": [true, "https://aiden.starprograms.dev", "First Website: aiden.starprograms.dev", "https://cli.starprograms.dev", "Second Website: cli.starprograms.dev"]
+            "Links": [true, "https://cli.starprograms.dev", "Second Website: cli.starprograms.dev"]
         },
         {
             "Project_Name" : "Undergraduate Teaching Assistant (2024) UF",
             "Project_info" : ["Fostered upcoming computer engineering students with deep understanding of data structures.",
                              "Demonstrated exceptional mastery of course material through in-depth application with 20% faster debugging",
                              "Led engaging discussions on core programming concepts with 98% attendance"],
-            "image" : [true, "right", "Images/374693857_683736827120440_7201324416461427492_n.jpg"],
+            "image" : [false, "right", "Images/374693857_683736827120440_7201324416461427492_n.jpg"],
             "Links": [false]
         },
         {
             "Project_Name" : "Bio",
-            "Project_info" : ["A student at UF, who focuses on helping teachers, and seeks out enjoyment in machine manipulations.",
-                                "helps to support the Satellite High Schools Fine Arts program and the community through acts of philanthropy. ",
-                                "Interested in innovation within Software Development; Communication; Teamwork; and Cyber-S.I.T. ",
-                                "He has received multiple industry certifications in software development.",
+            "Project_info" : ["Aiden Thomas is a highly motivated and accomplished computer science professional with a strong background in programming, education, and team leadership.",
+                            " As a Bachelor of Science graduate in Computer Science from the University of Florida, Aiden has demonstrated exceptional skills in programming languages, frameworks, and developer tools. His experience as an Undergraduate Teaching Assistant has further solidified his expertise in data structures, algorithms, and teaching.", 
+                            " With a passion for innovation and problem-solving, Aiden is committed to delivering cutting-edge solutions and making a meaningful impact in the tech industry.",
                                 "<iframe src=\"https://api.badgr.io/public/assertions/_hbZFbPsQK-3w7lDcYamWg?embedVersion=1&amp;embedWidth=330&amp;embedHeight=191&amp;identity__email=thomas.aiden%40ufl.edu\" style=\"width: 330px; height: 191px; border: 0px;\" title=\"Badge: 2025 Competitor\"></iframe><iframe src=\"https://api.badgr.io/public/assertions/l1k4GuNdToqVU0BN4t6G8A?embedVersion=1&amp;embedWidth=330&amp;embedHeight=191&amp;identity__email=thomas.aiden%40ufl.edu\" style=\"width: 330px; height: 191px; border: 0px;\" title=\"Badge: Most Valuable Teammate\"></iframe> "],
              "image" : [false],
             "Links": [false]
