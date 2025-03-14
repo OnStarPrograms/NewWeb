@@ -66,7 +66,7 @@
     "Projects" :
     [
         {
-            "Project_Name" : "Seam Carving Algorithm <br>| Nov. 2024",
+            "Project_Name" : "Seam Carving Algorithm <br>Nov. 2024",
             "Project_info" : ["C, C++, File IO, Dynamic Programming",
                                 "Utilizing Kernel based energy weighing to dynamically take the best seam on an image",
                                 "Reduces an image to 40% original size while still containing proper image ratios",
