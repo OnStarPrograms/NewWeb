@@ -70,3 +70,7 @@ body.Visible #Text
 
 body {overflow: hidden}
 body.Visible2 {overflow: scroll}
+
+body {
+    padding-bottom: 5px;
+}
