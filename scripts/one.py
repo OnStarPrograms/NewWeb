@@ -2,7 +2,7 @@ import time
 import subprocess
 
 #insert ip
-whitelist = []
+whitelist = ['\n']
 autodeny = 0
 timeoutTable = {}
 prevIPs = set()
@@ -14,12 +14,13 @@ for ip in f.readlines():
     whitelist.append(ip)
 print(whitelist)
 
-for i in range(500):
+while(True):
     subprocess.run(['ss -n> output.txt'], shell = True)
     subprocess.run(["grep -o '[0-9]\{1,3\}\.[0-9]\{1,3\}\.[0-9]\{1,3\}\.[0-9]\{1,3\}' output.txt  | grep -v '0.0.0.0'> newOutput.txt"], shell = True)
     f = open("newOutput.txt", "r")
     # print(f.readlines())
-    for ip in f.readlines():
+    val = f.readlines()
+    for ip in val:
         if (ip not in timeoutTable and ip not in whitelist):
             print("ip not known")
             timeoutTable.update({ip:time.time()});
@@ -31,8 +32,6 @@ for i in range(500):
                 print("blocking ip:", ip)
                 timeoutTable[ip] = time.time()
                 subprocess.run(['iptables -A INPUT -s '+ip[0:-1]+' -j DROP'], shell = True)
-    for ips in prevIPs:
-        if ips not in f.readlines():
-            timeoutTable[ips] = time.time()
+    time.sleep(1)
 
 print(whitelist)
