@@ -2,7 +2,7 @@ import time
 import subprocess
 
 #insert ip
-whitelist = ['172.16.48.102\n']
+whitelist = ['172.16.48.30\n']
 autodeny = 0
 timeoutTable = {}
 prevIPs = set()
