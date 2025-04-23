@@ -1,0 +1,8 @@
+netstat -ano | findstr :8080
+
+$userInput = Read-Host -Prompt "Please enter your input: "
+while ($userInput -ne "end"){
+	taskkill /pid [int]$userInput /F
+	$userInput = Read-Host -Prompt "Please enter your input: "
+}
+
